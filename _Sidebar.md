@@ -1,2 +1,2 @@
-* [[Build Instructions|BuildInstructions]]
-* [[Support Guidance|SupportGuidance]]
+* [[Build Instructions|Build Instructions]]
+* [[Support Guidance|Support Guidance]]

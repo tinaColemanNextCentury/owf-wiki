@@ -8,7 +8,7 @@ The purpose of this document is to describe how to build the following project:
 
 
 ## 2 Requirements
-This document is targeted to OWF server/container developers and assumes a basic familiarity with the target development environment, be it Microsoft Windows or Linux. Before any of the build tasks can run, the developer must install Ant 1.8.3, Ant Contrib 1.0b3 and Grails 1.3.7. The following sections list the tools, the version requirements for recent OWF releases and nominal configuration elements. Instructions provided below assume a Microsoft Windows development environment for illustrative purposes only. 
+This document is targeted to OWF server/container developers and assumes a basic familiarity with the target development environment, be it Microsoft Windows or Linux. Before any of the build tasks can run, the developer must install Ant, Ant Contrib 1.0b3 and Grails 1.3.7. The following sections list the tools, the version requirements for recent OWF releases and nominal configuration elements. Instructions provided below assume a Microsoft Windows development environment for illustrative purposes only. 
 
 ### 2.1 Download and Install Applications
 OWF Development requires the use of the Java Development Kit (JDK), Apache Ant, Apache Ant Contrib, Ruby, RubyGems, Compass and Sass, as well as Groovy. The following table lists the versions of each tool required by OWF releases.

@@ -270,4 +270,4 @@ The CAS Server WAR provides a very simple login form interface to CAS, a single 
 Changing the configuration of this artifact is not currently supported.  Previously built distributions of this artifact are now made available through Nexus.
 
 ## 5 Contact Information
-For additional support, see [[Support Guidance / Community |SupportGuidance]].  Specifically, seek out the group for developers.
+For additional support, see [Support Guidance](https://github.com/ozoneplatform/owf/wiki/Support-Guidance).  Specifically, seek out the group for developers.

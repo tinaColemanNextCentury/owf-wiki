@@ -1,3 +1,3 @@
 Welcome to the owf wiki!
 
-https://github.com/ozoneplatform/owf/wiki/Build-Instructions
+[Build Instructions](https://github.com/ozoneplatform/owf/wiki/Build-Instructions)

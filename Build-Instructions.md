@@ -108,11 +108,11 @@ Configuring the required Ruby gems requires completion of the previous sections.
 
 1. Open a new Command Prompt window and enter the following:
 
-        gem install compass –version 0.11.3 
+        gem install compass -–version 0.11.3 
 
 2. There should be a response similar to the following:
 
-        C:\Users\myusername>gem install compass -version 0.11.3
+        C:\Users\myusername>gem install compass --version 0.11.3
         Fetching: sass-3.1.15.gem (100%)< 
         Fetching: chunky_png-1.2.5.gem (100%) 
         Fetching: fssm-0.2.9.gem (100%)
@@ -134,7 +134,7 @@ Configuring the required Ruby gems requires completion of the previous sections.
 
 3. Then run the following command:
 
-        gem install sass—version 3.1.3
+        gem install sass --version 3.1.3
 
 4. There should be a response similar to:
 

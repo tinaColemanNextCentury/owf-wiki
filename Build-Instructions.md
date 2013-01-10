@@ -108,7 +108,7 @@ Configuring the required Ruby gems requires completion of the previous sections.
 
 1. Open a new Command Prompt window and enter the following:
 
-        gem install compass -–version 0.11.3 
+        gem install compass --version 0.11.3 
 
 2. There should be a response similar to the following:
 

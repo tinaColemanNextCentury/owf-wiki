@@ -96,11 +96,14 @@ The build environment uses Apache Ant for most tasks. For Ant to run properly, i
 2. Click the System icon and select the Advanced System Settings link in the resulting window.
 3. Click on the Advanced tab in the resulting pop-up and then select the Environment Variables button. For the following steps, if Administrator rights are available, use the System Variables section. If not, use the User variables section.
 4. Create/Edit a variable named **ANT_HOME**. Set its value to **C:\Apache_Ant\apache-ant-1.8.3**. Save the new variable. On your system, the value should be the location where Ant was actually installed.
-5. Create/Edit the Path variable. If the Path variable already contains the value **%ANT_HOME%/bin**, click Cancel. If the Path doesn’t contain the variable, append “ **;%ANT_HOME%/bin** ” (do not include the quotes) to the end of the Path variable. Click OK until the system properties dialog is closed.
+5. Create/Edit the Path variable. If the Path variable already contains the value **%ANT_HOME%/bin**, click Cancel. If the Path doesn’t contain the variable, append **;%ANT_HOME%/bin** to the end of the Path variable. Click OK until the system properties dialog is closed.
 6. Download and install the Ant Contrib ZIP file in a Windows environment:
- A. Download **ant-contrib-1.0b3-bin.zip** from **http://sourceforge.net/projects/ant-contrib/files/ant-contrib/1.0b3/**.
- B. Unzip the contents of the file on the hard drive of the local machine. The result should be a folder named ant-contrib on the hard drive.
- C. Copy **ant-contrib-1.0b3.jar** to the lib directory of the local Ant installation.
+
+   A. Download **ant-contrib-1.0b3-bin.zip** from **http://sourceforge.net/projects/ant-contrib/files/ant-contrib/1.0b3/**.
+
+   B. Unzip the contents of the file on the hard drive of the local machine. The result should be a folder named ant-contrib on the hard drive.
+
+   C. Copy **ant-contrib-1.0b3.jar** to the lib directory of the local Ant installation.
 This method should be repeated to set a **JAVA_HOME**, **ANT_HOME**, **GRAILS_HOME**, **GROOVY_HOME** and **RUBY_HOME** environment variable for each of their installation folders, respectively.
 
 ### 2.3   Configuring Ruby Gems (Compass and Sass)
@@ -179,7 +182,7 @@ If a different version is running or a Sass error is displayed (e.g., “no such
         C:\Users\myusername>
 
 ### 2.4   Verify Tool Installations
-To verify the installation and version of the tools, use the version command for each tool in a Command Prompt Window. Example commands and output for an OWF 7 environment follow:
+To verify the installation and version of the tools, use the version command for each tool in a Command Prompt window. Example commands and output for an OWF 7 environment follow:
 
 1. Enter java –version
 
@@ -229,13 +232,13 @@ To verify the installation and version of the tools, use the version command for
         Please make a tax deductible donation for a worthy cause: http://umdf.org/compass
 
 ## 3   Building
-If changes are being made to the server code, the developer does not normally need to run build tasks to test them. Instead, use the standard grails scripts to run or test the server code. Use the Ant build when there is the need to build a server bundle, i.e. package the **WAR** files, along with a Tomcat instance into a **ZIP** file that can then be distributed to an end user. To build a server bundle, open a Command Prompt window and ‘ **cd** ’ into the server’s base directory. 
+If changes are being made to the server code, the developer does not normally need to run build tasks to test them. Instead, use the standard grails scripts to run or test the server code. Use the Ant build when there is the need to build a server bundle, i.e. package the WAR files, along with a Tomcat instance into a ZIP file that can then be distributed to an end user. To build a server bundle, open a Command Prompt window and ‘ **cd** ’ into the server’s base directory. 
 
 To build the bundle, type the following on the command line and press Enter:
 
         C:\owf-server>ant bundle
 
-The bundle task will do a clean and build of the server code (retrieving any dependencies), run the server tests (both unit and integration) and then build the zipped bundle. The results of the build are written to the staging directory within the server directory. The staging directory of a successful build should contain the zipped bundle, as well as the unzipped contents of the bundle. The latter is provided as a convenience to test the bundle by running the start.bat (or **start.sh** on Linux systems) in the **staging/apache-tomcat-x.x.x** directory. This will start the Tomcat server which is initially configured to load the Ozone server and the CAS server **WAR** files.
+The bundle task will do a clean and build of the server code (retrieving any dependencies), run the server tests (both unit and integration) and then build the zipped bundle. The results of the build are written to the staging directory within the server directory. The staging directory of a successful build should contain the zipped bundle, as well as the unzipped contents of the bundle. The latter is provided as a convenience to test the bundle by running the start.bat (or **start.sh** on Linux systems) in the **staging/apache-tomcat-x.x.x** directory. This will start the Tomcat server which is initially configured to load the Ozone server and the CAS server WAR files.
 
 ### 3.1   Additional Build Command Line Options
 When running the build, use any (or all) of the following command line parameters:
@@ -251,18 +254,21 @@ When running the build, use any (or all) of the following command line parameter
    * Modifying the **[root]/application.properties** file and commenting out the line beginning with ‘ **plugins.[pluginName]** ’.
    * Moving the **[root]/plugins/[pluginName]** directory out of the project.
 
-> Note: Other references to the plugin may exist in places and this procedure may be insufficient to avoid all possible errors.
+> _Note: Other references to the plugin may exist in places and this procedure may be insufficient to avoid all possible errors._
 
 * Testing Grails compilation outside of the Ant script can be useful for diagnosing Grails-level configuration issues without executing all other aspects of the build process. To do this, run the following from a Command Prompt Window:
 
         grails compile -DOFFLINE_REPO= c:/path/to/ivy-repo/no-namespace
 
-* Build fails with an error akin to the below.  Resolution: set GROOVY_HOME is set in your environment.
-c:\Development\GitFlip\owfBuildTest\build.xml:227: The following error occurred
-while executing this line:
-c:\Development\GitFlip\owfBuildTest\tools\TestDbConversion\build.xml:23: c:\Development\GitFlip\owfBuildTest\tools\TestDbConversion\${env.GROOVY_HOME}\embeddable not found.
+* If the following build failure occurs,  
 
-## 4 Other Prebuilt artifacts
+        c:\Development\GitFlip\owfBuildTest\build.xml:227: The following error occurred while executing this line:
+        c:\Development\GitFlip\owfBuildTest\tools\TestDbConversion\build.xml:23: 
+        c:\Development\GitFlip\owfBuildTest\tools\TestDbConversion\${env.GROOVY_HOME}\embeddable not found.
+
+  ensure that **GROOVY_HOME** is set in your environment. 
+
+## 4 Other Prebuilt Artifacts
 ### 4.1   CAS Server War
 The CAS Server WAR provides a very simple login form interface to CAS, a single sign-on solution provided by jasig.  Previously built distributions of this artifact are now made available through Nexus.  As this is considered useful for packaged delivery, but not actually part of OWF's capabilities, build support for this artifact is not currently supported.  Consult the [CAS](http://www.jasig.org/cas) project within the jasig community for further guidance.
 

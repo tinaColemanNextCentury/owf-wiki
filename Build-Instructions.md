@@ -1,6 +1,6 @@
 #OWF Build Instructions 
 #OWF6 and 7 - Grails, Ext JS infrastructure
- 
+
 ## 1 Objectives
 The purpose of this document is to describe how to build the following project:
 
@@ -90,7 +90,7 @@ Obtain installation media and instructions for the various operating systems fro
 
 
 ### 2.2   Setting Environment Variables
-The build environment uses Apache Ant for most tasks. For Ant to run properly, it should discover the locations of the other supporting tools. This is accomplished by setting appropriate environment variables describing the install directory of each tool. On Windows 7, the following steps will set the **ANT\_HOME** variable, assuming an install location of **C:\Apache_Ant\apache-ant-1.8.38**.
+The build environment uses Apache Ant for most tasks. For Ant to run properly, it should discover the locations of the other supporting tools. This is accomplished by setting appropriate environment variables describing the install directory of each tool. On Windows 7, the following steps will set the **ANT\_HOME** variable, assuming an install location of **C:\Apache_Ant\apache-ant-1.8.3**.
 
 1. Go to the Start menu and select Control Panel.
 2. Click the System icon and select the Advanced System Settings link in the resulting window.
@@ -106,40 +106,14 @@ The build environment uses Apache Ant for most tasks. For Ant to run properly, i
    C. Copy **ant-contrib-1.0b3.jar** to the lib directory of the local Ant installation.
 This method should be repeated to set a **JAVA_HOME**, **ANT_HOME**, **GRAILS_HOME**, **GROOVY_HOME** and **RUBY_HOME** environment variable for each of their installation folders, respectively.
 
-### 2.3   Configuring Ruby Gems (Compass and Sass)
-Configuring the required Ruby gems requires completion of the previous sections. Assuming a correct Ruby installation and Ruby being available on the Path variable, the following steps will install Compass and Sass:
+### 2.3   Configuring Ruby Gems (Sass and Compass)
+Configuring the required Ruby gems requires completion of the previous sections. Assuming a correct Ruby installation and Ruby being available on the Path variable, the following steps will install Sass and Compass:
 
 1. Open a new Command Prompt window and enter the following:
 
-        gem install compass --version 0.11.3 
+        gem install sass --version 3.1.3 
 
 2. There should be a response similar to the following:
-
-        C:\Users\myusername>gem install compass --version 0.11.3
-        Fetching: sass-3.1.15.gem (100%)< 
-        Fetching: chunky_png-1.2.5.gem (100%) 
-        Fetching: fssm-0.2.9.gem (100%)
-        Fetching: compass-0.11.3.gem (100%) 
-        Successfully installed sass-3.1.15 
-        Successfully installed chunky_png-1.2.5 
-        Successfully installed fssm-0.2.9 
-        Successfully installed compass-0.11.3 
-        4 gems installed 
-        Installing ri documentation for sass-3.1.15...
-        Installing ri documentation for chunky_png-1.2.5... 
-        Installing ri documentation for fssm-0.2.9... 
-        Installing ri documentation for compass-0.11.3... 
-        Installing RDoc documentation for sass-3.1.15... 
-        Installing RDoc documentation for chunky_png-1.2.5... 
-        Installing RDoc documentation for fssm-0.2.9... 
-        Installing RDoc documentation for compass-0.11.3... 
-        C:\Users\ myusername> 
-
-3. Then run the following command:
-
-        gem install sass --version 3.1.3
-
-4. There should be a response similar to:
 
         C:\Users\myusername>gem install sass --version 3.1.3
         Fetching: sass-3.1.3.gem (100%)
@@ -147,6 +121,28 @@ Configuring the required Ruby gems requires completion of the previous sections.
         1 gem installed
         Installing ri documentation for sass-3.1.3...
         Installing RDoc documentation for sass-3.1.3...
+        C:\Users\myusername>
+
+3. Then run the following command:
+
+        gem install compass --version 0.11.3
+
+4. There should be a response similar to:
+
+        C:\Users\myusername>gem install compass --version 0.11.3
+        Fetching: chunky_png-1.2.5.gem (100%)
+        Fetching: fssm-0.2.9.gem (100%)
+        Fetching: compass-0.11.3.gem (100%)
+        Successfully installed chunky_png-1.2.5
+        Successfully installed fssm-0.2.9
+        Successfully installed compass-0.11.3
+        3 gems installed
+        Installing ri documentation for chunky_png-1.2.5...
+        Installing ri documentation for fssm-0.2.9...
+        Installing ri documentation for compass-0.11.3...
+        Installing RDoc documentation for chunky_png-1.2.5...
+        Installing RDoc documentation for fssm-0.2.9...
+        Installing RDoc documentation for compass-0.11.3...
         C:\Users\myusername>
 
 5. Ensure that the correct Ruby, Sass and Compass versions are installed.
@@ -184,46 +180,46 @@ If a different version is running or a Sass error is displayed (e.g., “no such
 ### 2.4   Verify Tool Installations
 To verify the installation and version of the tools, use the version command for each tool in a Command Prompt window. Example commands and output for an OWF 7 environment follow:
 
-1. Enter java –version
+1. Enter java -version
 
-        C:\Users\myusername>java –version
+        C:\Users\myusername>java -version
         java version "1.6.0_32-ea"
         Java(TM) SE Runtime Environment (build 1.6.0_32-ea-b03)
         Java HotSpot(TM) 64-Bit Server VM (build 20.7-b02, mixed mode)
 
-2. Enter ant –version
+2. Enter ant -version
 
-        C:\Users\myusername>ant –version
+        C:\Users\myusername>ant -version
         Apache Ant(TM) version 1.8.3 compiled on February 26 2012
 
-3. Enter grails –version
+3. Enter grails -version
 
         C:\Users\myusername>grails -version
         Welcome to Grails 1.3.7 - http://grails.org/
         Licensed under Apache Standard License 2.0
         Grails home is set to: C:\Grails\grails-1.3.7
 
-4. Enter groovy –version
+4. Enter groovy -version
 
-        C:\Users\myusername>groovy –version 
+        C:\Users\myusername>groovy -version 
         Groovy Version: 1.8.8 JVM: 1.6.0_32
 
-5. Enter ruby –v
+5. Enter ruby -v
 
-        C:\Users\myusername>ruby –v
+        C:\Users\myusername>ruby -v
         ruby 1.9.2p290 (2011-07-09) [i386-mingw32]
 
-6. Enter gem –v
+6. Enter gem -v
 
-        C:\Users\myusername>gem –v
+        C:\Users\myusername>gem -v
         1.8.16
 
-7. Enter sass –v
+7. Enter sass -v
 
-        C:\Users\myusername>sass –v
+        C:\Users\myusername>sass -v
         Sass 3.1.3 (Brainy Betty)
 
-8. Enter compass –v
+8. Enter compass -v
 
         C:\Users\myusername>compass -v
         Compass 0.11.3 (Antares)

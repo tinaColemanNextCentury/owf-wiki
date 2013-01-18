@@ -11,7 +11,7 @@ The purpose of this document is to describe how to build the following project:
 This document is targeted to OWF server/container developers and assumes a basic familiarity with the target development environment, be it Microsoft Windows or Linux. Before any of the build tasks can run, the developer must install Ant, Ant Contrib 1.0b3 and Grails 1.3.7. The following sections list the tools, the version requirements for recent OWF releases and nominal configuration elements. Instructions provided below assume a Microsoft Windows development environment for illustrative purposes only. 
 
 ### 2.1 Download and Install Applications
-OWF Development requires the use of the Java Development Kit (JDK), Apache Ant, Apache Ant Contrib, Ruby, RubyGems, Compass and Sass, as well as Groovy. The following table lists the versions of each tool required by OWF releases.
+OWF Development requires the use of the Java Development Kit (JDK), Apache Ant, Apache Ant Contrib, Ruby, RubyGems, Sass and Compass, as well as Groovy. The following table lists the versions of each tool required by OWF releases.
 
 **Table 1: OWF Development Tools and Version Numbers**
 
@@ -55,7 +55,7 @@ OWF Development requires the use of the Java Development Kit (JDK), Apache Ant, 
 </table>
 </br>
 
-> *RubyGem is provided by the Ruby Installation. The Compass and Sass configuration is described in section 2.3: Configuring Ruby Gems (Compass and Sass).
+> *RubyGem is provided by the Ruby Installation. The Sass and Compass configuration is described in section 2.3: Configuring Ruby Gems (Sass and Compass).
 
 Obtain installation media and instructions for the various operating systems from the primary websites for each tool or trusted download source. The default locations are provided below. Also, install the tools in the order listed below. Once all tools have been installed, the following sections will describe how to configure the environment.
 

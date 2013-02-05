@@ -1,4 +1,4 @@
-![OZONE Widget Framework Banner](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/ozone_widget_framework_banner.png)
+![OZONE Widget Framework Banner](OWFImages/OWF7/ozone_widget_framework_banner.png)
 #OWF Build Instructions 
 #OWF6 and 7 - Grails, Ext JS infrastructure
 

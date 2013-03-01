@@ -51,7 +51,7 @@ The Widget Intents API requires the use of Eventing. For an example, see **NYSE.
 
 **Step 3: Set up a widget to send and receive intents**
 
-Use the Widget Editor in the user interface to add, edit or remove widget intents, see the **Creating Descriptor Files for Widgets** section found on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page. Sending an Intent should be tied to a user-generated action such as clicking a button or link. The handler for that action should call the `OWF.Intents.startActivity` method. This method takes three arguments:
+Use the Widget Editor in the user interface to add, edit or remove widget intents, see the **Creating Descriptor Files for Widgets** section found on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page. Sending an Intent should be tied to a user-generated action such as clicking a button or link. The handler for that action should call the `OWF.Intents.startActivity` method. This method takes three arguments:
 
 1. The first argument is **an Intent**. An Intent is simply an object describing an action and a data type. The action should be a verb describing what the user is trying to do (i.e. plot, pan, zoom, view, graph, etc.). The data type should describe what type of data is being acted upon. The data type format is described in the **Recommended Intents Data Type Conventions** section. 
 2. The second argument is **an object containing the data** that the intent is sending. The format of the data depends solely on how the receiving widget is expecting to receive it.
@@ -87,7 +87,7 @@ The example below displays an intent that graphs a stock price. Once a receiving
         …
 ```
 
-Use the Widget Editor in the user interface to add, edit or remove widget intents, see the **Creating Descriptor Files for Widgets** section found on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page. Any widget can receive an Intent by calling the `OWF.Intents.receive` method. This method takes two arguments: 
+Use the Widget Editor in the user interface to add, edit or remove widget intents, see the **Creating Descriptor Files for Widgets** section found on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page. Any widget can receive an Intent by calling the `OWF.Intents.receive` method. This method takes two arguments: 
 
 1. The first argument is **an Intent**. An Intent is simply an object describing an action and a data type. The action should be a verb describing what the user is trying to do (i.e. plot, pan, zoom, view, graph, etc.). The data type should describe what type of data is being acted upon. 
  

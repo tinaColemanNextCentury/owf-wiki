@@ -180,7 +180,7 @@ While originally defined in `js\util\widget_utils.js`, the interface object now 
 
 Due to the complexity of the OWF APIs, a widget’s ability to signal that it is ready to communicate with other widgets provides a helpful tool for developers. This ready signal is typically sent after the widget has subscribed to channels, registered RPC functions and Intents, etc. Starting with OWF 6, there is a standard way for widgets to signal this ready status.
 
-In order to signal that it is ready, a widget calls `OWF.notifyWidgetReady()` after it is finished setting up any communication mechanisms. The OWF Development Team recommends that any widget that uses OWF APIs makes the call. However, widgets that use the [Widget Intents API](OWF-7-Developer—Widget-Intents-API)’s receive method must make this call. 
+In order to signal that it is ready, a widget calls `OWF.notifyWidgetReady()` after it is finished setting up any communication mechanisms. The OWF Development Team recommends that any widget that uses OWF APIs makes the call. However, widgets that use the [Widget Intents API](OWF-7-Developer-Widget-Intents-API)’s receive method must make this call. 
 
 ##OWF Bundled JavaScript
 

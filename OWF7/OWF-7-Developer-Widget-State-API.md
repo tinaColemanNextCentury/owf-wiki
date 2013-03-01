@@ -7,7 +7,7 @@ To illustrate and provide a coding example for the Widget State API, we have cre
 
 #2   Adding the Event Monitor Widget to OWF
 
-Follow the directions on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page to create widget definitions which point to **EventMonitor.html**. Then, assign the widget to a user, and apply the widget to one of the user’s dashboards. Use the following data for widget definitions:
+Follow the directions on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page to create widget definitions which point to **EventMonitor.html**. Then, assign the widget to a user, and apply the widget to one of the user’s dashboards. Use the following data for widget definitions:
 
 **Table: Event Monitor Widget Definition Text**
 

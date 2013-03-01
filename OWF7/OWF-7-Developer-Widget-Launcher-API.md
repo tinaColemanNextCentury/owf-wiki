@@ -5,7 +5,7 @@ The Widget Launcher API allows one widget to send data to another widget. It is 
 
 This walkthrough will go through the process of using the Widget Launcher API by describing Channel Listener and Channel Shouter example widget behavior. Channel Listener and Channel Shouter are widgets that are included with OWF. In the walkthrough below, Channel Listener and Channel Shouter widgets work together to demonstrate both the Eventing and the Widget Launcher APIs. **The widget launching functionality is commented out by default. For this walkthrough, include that section of the code.** 
 
-> _Note: An additional Widget Launcher exercise is available in the **Overview - Adding the Widget Launcher** section of the [Additional Walkthroughs](OWF-7-Developer—Additional-Walkthroughs) page._
+> _Note: An additional Widget Launcher exercise is available in the **Overview - Adding the Widget Launcher** section of the [Additional Walkthroughs](OWF-7-Developer-Additional-Walkthroughs) page._
 
 Channel Listener allows the user to subscribe to channels by entering the channel name into a text box and pressing the ![Add Channel](OWFImages/OWF7/add_channel_61x16.png) button on the widget. The widget will then display any messages which are broadcast on the channels to which it is subscribed. Channel Shouter allows the user to publish messages to specific channels by entering both the name of a specific channel as well as the message text into text boxes and pressing the ![Broadcast](OWFImages/OWF7/broadcast_47x16.png) button. 
 
@@ -164,7 +164,7 @@ Another way to determine which widget to launch is to search using its Universal
         …
 ```
 
-> _Note: A widget’s Universal Name is defined in its descriptor file. See the **Creating Descriptor Files for Widgets** section (on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page)  for details on descriptor files._
+> _Note: A widget’s Universal Name is defined in its descriptor file. See the **Creating Descriptor Files for Widgets** section (on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page)  for details on descriptor files._
 
 ##Using Regular Expression to change a Widget’s Title
 

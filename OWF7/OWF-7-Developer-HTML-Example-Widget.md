@@ -58,7 +58,7 @@ Additionally, the **AnnouncingClock_Eventing.html**, **SecondTracker.html** and 
 
 #3   Updating OWF JavaScript Includes
 
-The simplest way to upgrade a widget’s OWF JavaScript includes is to replace all OWF JavaScript includes with the list found in the Widget Best Practices (on the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page). This mass change will ensure that all JavaScript includes are accounted for. If a smaller list is required for specific functionality, please refer to the appropriate feature section. 
+The simplest way to upgrade a widget’s OWF JavaScript includes is to replace all OWF JavaScript includes with the list found in the Widget Best Practices (on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page). This mass change will ensure that all JavaScript includes are accounted for. If a smaller list is required for specific functionality, please refer to the appropriate feature section. 
 
 #4   Upgrade Eventing Relay File
 
@@ -68,4 +68,4 @@ New JavaScript libraries have been introduced. These libraries will need to be r
 
 In prior versions of OWF an attempt to retrieve or delete a nonexistent preference resulted in an error. Starting with OWF 3.3, the Preference API considers retrieving or deleting a preference that does not exist, a “success” and calls the `onSuccess` callback with an “undefined” value. For example, the `getUserPreference()` method in the Preferences API will return an empty object when the requested named property is not found.
 
-There have also been a few method changes in the Preference API. The methods `putUserPreference` and `createOrUpdateUserPreference` have been removed in favor of `setUserPreference`. Additionally, all methods now take a JSON configuration object as a parameter. See [Adding the Preferences API to a Widget](OWF-7-Developer—Adding-Preferences-API-to-Widget) for more details.
+There have also been a few method changes in the Preference API. The methods `putUserPreference` and `createOrUpdateUserPreference` have been removed in favor of `setUserPreference`. Additionally, all methods now take a JSON configuration object as a parameter. See [Adding the Preferences API to a Widget](OWF-7-Developer-Adding-Preferences-API-to-Widget) for more details.

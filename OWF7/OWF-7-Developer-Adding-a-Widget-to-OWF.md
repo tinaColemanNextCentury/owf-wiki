@@ -35,7 +35,7 @@ Starting in OWF 7, developers should use the Widget Editor to add and edit widge
 
   > _Note: Intents are NOT case sensitive._
 
-       ii. **Data Type** - The Data Type is an object containing the data that the intent is sending. It describes what type of data is being acted upon. The data type format is described in the section entitled **Recommended Intents Data Type Conventions** located on the [Widget Intents API](https://github.com/tinaColemanNextCentury/TestForNextCentury/wiki/Developer's-Widget-Intents-API) page. 
+       ii. **Data Type** - The Data Type is an object containing the data that the intent is sending. It describes what type of data is being acted upon. The data type format is described in the section entitled **Recommended Intents Data Type Conventions** located on the [Widget Intents API](https://github.com/ozoneplatform/owf/wiki/OWF-7-Developer-Widget-Intents-API) page. 
         The format of the data depends solely on how the sending or receiving widget is expecting to use the data. For example, “ `application/vnd.owf.sample.price` ” tells the NYSE Widget’s how to display price. 
 
        iii. **Send** – Checked by default, this field identifies if the widget can send intents.

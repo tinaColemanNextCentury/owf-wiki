@@ -9,7 +9,7 @@ This walkthrough will address the Widget Chrome API. For the purposes of this do
 
 The OWF Bundle includes an example widget that uses the Widget Chrome API. The example widget adds buttons and a menubar to the chrome upon opening. Developers can configure the buttons and menubar by modifying the **widgetChromeData.js** file found in `/apache-tomcat-7.0.21/webapps/owf/examples/walkthrough/widgets`. Normally, a widget should not use an external JavaScript file for this information. However, as a training tool, this Widget Chrome example allows developers to add buttons and menus to the widget’s chrome. 
 
-Follow the directions on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page to create a widget definition which points to **WidgetChrome.gsp**. Then, assign the widget to a user and apply the widget to one of the user’s dashboards. Use the following data for the widget definition:
+Follow the directions on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page to create a widget definition which points to **WidgetChrome.gsp**. Then, assign the widget to a user and apply the widget to one of the user’s dashboards. Use the following data for the widget definition:
 
 **Table: Data for Widget Chrome API**
 

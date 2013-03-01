@@ -12,7 +12,7 @@ The OZONE Widget Framework (OWF) supports diagnostic and error logging at a numb
 
 #2   Walkthrough
 
-This walkthrough will go through the process of enabling OWF console logging and adding log messages to the Announcing Clock widget initially created in the **Walkthrough** section of the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page.
+This walkthrough will go through the process of enabling OWF console logging and adding log messages to the Announcing Clock widget initially created in the **Walkthrough** section of the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page.
 
 **Step 1: Import the Proper JavaScript Files**
 

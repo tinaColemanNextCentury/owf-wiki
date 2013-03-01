@@ -47,7 +47,7 @@ If an error occurs, such as a *500: Internal Server Error*, the `onFailure` call
 
 #2   Walkthrough
 
-This walkthrough will expand on the **AnnouncingClock.html** widget created in the **Walkthrough** section on the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page, by adding a “Military Time” checkbox whose state is stored in the OWF database using the OWF preference JavaScript API.
+This walkthrough will expand on the **AnnouncingClock.html** widget created in the **Walkthrough** section on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page, by adding a “Military Time” checkbox whose state is stored in the OWF database using the OWF preference JavaScript API.
 
 **Step 1: Copy over Dojo’s window name transport**
 
@@ -206,7 +206,7 @@ The code for this walkthrough can be found in **AnnouncingClock_Preference.html*
 
 **Step 9: Testing the SecondTracker and Announcing Clock Widgets in OWF**
 
-To launch and test the newly modified widgets, they must be deployed to OWF. For details, please see [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF).
+To launch and test the newly modified widgets, they must be deployed to OWF. For details, please see [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF).
 
 #3   Additional Considerations
 ##Browser Based Cross Domain Data Transfer

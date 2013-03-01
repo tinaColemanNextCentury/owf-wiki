@@ -15,15 +15,15 @@ Creating Widget applications and integrating existing applications into OWF; **w
 
 **Example Widgets**
 
-* [HTML Example Widget](OWF-7-Developer—HTML-Example-Widget)
-* [GWT Example Widget](OWF-7-Developer—GWT-Example-Widget)
-* [.NET Example Widget](OWF-7-Developer—.NET-Example-Widget)
-* [FLEX Example Widget](OWF-7-Developer—FLEX-Example-Widget)
-* [Silverlight Example Widget](OWF-7-Developer—Silverlight-Example-Widget)
-* [Java Applet Widget](OWF-7-Developer—Java-Applet-Example-Widget)
+* [HTML Example Widget](OWF-7-Developer-HTML-Example-Widget)
+* [GWT Example Widget](OWF-7-Developer-GWT-Example-Widget)
+* [.NET Example Widget](OWF-7-Developer-.NET-Example-Widget)
+* [FLEX Example Widget](OWF-7-Developer-FLEX-Example-Widget)
+* [Silverlight Example Widget](OWF-7-Developer-Silverlight-Example-Widget)
+* [Java Applet Widget](OWF-7-Developer-Java-Applet-Example-Widget)
 
 **Extras**
 
-* [Additional Walkthroughs](OWF-7-Developer—Additional-Walkthroughs)
-* [Point-to-Point Widgets](OWF-7-Developer—Point-to-Point-Widgets)
-* [Known Issues](OWF-7-Developer—Known-Issues)
+* [Additional Walkthroughs](OWF-7-Developer-Additional-Walkthroughs)
+* [Point-to-Point Widgets](OWF-7-Developer-Point-to-Point-Widgets)
+* [Known Issues](OWF-7-Developer-Known-Issues)

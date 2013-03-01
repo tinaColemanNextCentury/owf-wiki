@@ -33,7 +33,7 @@ In order to build the GWT sample widget, execute the following steps:
 
 To test that the widget properly publishes data, do the following:
 
-1. Follow the walkthrough on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page to create widget definitions which point to **stockwatcher.html**, assign the widget to a user and then apply the widget to one of the user’s dashboards. Use the following data for widget definitions:
+1. Follow the walkthrough on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page to create widget definitions which point to **stockwatcher.html**, assign the widget to a user and then apply the widget to one of the user’s dashboards. Use the following data for widget definitions:
 
   **Table: Data for GWT Widget Definition**
 

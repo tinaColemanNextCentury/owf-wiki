@@ -10,7 +10,7 @@ There are two main components to the Eventing Framework. First is the supporting
 
 #2   Walkthrough
 
-This walkthrough will go through the process of creating a new widget called SecondTracker. The new widget will use the Eventing API to track how many seconds the Announcing Clock Widget has been running. See the **Walkthrough** section found on the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page for more information on the proposed directory structure.
+This walkthrough will go through the process of creating a new widget called SecondTracker. The new widget will use the Eventing API to track how many seconds the Announcing Clock Widget has been running. See the **Walkthrough** section found on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page for more information on the proposed directory structure.
 
 > _Note: The full code can be found in **SecondTracker.html** located in the OWF Sample Widgets bundle under the `\html-widgets.zip\src\main\webapp\clock`._
 
@@ -66,7 +66,7 @@ This walkthrough will go through the process of creating a new widget called Sec
 
    Replace all occurrences of `https://servername:port` with the name of the server where OWF is running, for example, `https://www.yourcompany.com:8443`. 
 
- > _Note: The **owf-widget-min.js** file may be replaced with the debug version and may be hosted locally. Refer to the section **OWF Bundled Java Script** and its subsections (located on the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page) for more details on owf-minified files._
+ > _Note: The **owf-widget-min.js** file may be replaced with the debug version and may be hosted locally. Refer to the section **OWF Bundled Java Script** and its subsections (located on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page) for more details on owf-minified files._
 
 4. **Add code that uses the Eventing API to subscribe to a channel**
 
@@ -132,7 +132,7 @@ This walkthrough will go through the process of creating a new widget called Sec
 
     > _Note: Pay attention to the OWF relay file argument. In order to work correctly, the relay **file must be specified with full location details, but without a fully qualified path**. In the case where the relay is residing at **http://server/path/relay.html**, the path used must be from the context root of the local widget. In this case, it would be **/path/relay.html**. Do not include the protocol._
 
-    Within the first method, `trackerInit`, the widget subscribes to the channel ClockChannel, passing in its update function.  To do this, include additional logic that determines if SecondTracker was launched using the WidgetLaunch API. Please see the [Widget Launcher API](OWF-7-Developer—Widget-Launcher-API) page for additional details.
+    Within the first method, `trackerInit`, the widget subscribes to the channel ClockChannel, passing in its update function.  To do this, include additional logic that determines if SecondTracker was launched using the WidgetLaunch API. Please see the [Widget Launcher API](OWF-7-Developer-Widget-Launcher-API) page for additional details.
 
     B. The second method, update, serves as a callback for the Eventing framework. Whenever a message is broadcast on the channel that the update function was subscribed to (in this case, ClockChannel), the function will be invoked. All Eventing callback functions should take two arguments - sender and message. When the update function is fired, the count is incremented, and the `innerHTML` of the `currentTime` span is updated to reflect the message sent by the clock.
 
@@ -256,7 +256,7 @@ Replace the code in the **AnnouncingClock.html** file with the following:
         </html>
  ```
 
- Notice, that the following JavaScript has been added into the head of the **AnnouncingClock.html** file created in the **Walkthrough** section located on the [Creating a Widget](OWF-7-Developer—Creating-a-Widget) page:
+ Notice, that the following JavaScript has been added into the head of the **AnnouncingClock.html** file created in the **Walkthrough** section located on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page:
 
         <script type="text/javascript" src="../js/owf-widget-debug.js"></script>
 
@@ -277,11 +277,11 @@ The deployment method used depends on the Web application server. Usually it can
 
 **7. Add the SecondTracker and Announcing Clock Widgets to OWF**
 
-  For the Eventing to function correctly, add the **SecondTracker.html** and the modified **AnnouncingClock.html** files to OWF via the OWF Administration page. For details on how to do this, see [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF).
+  For the Eventing to function correctly, add the **SecondTracker.html** and the modified **AnnouncingClock.html** files to OWF via the OWF Administration page. For details on how to do this, see [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF).
 
 **8. Testing the SecondTracker and Announcing Clock Widgets in OWF**
 
-  To launch and test the newly modified widgets, deploy them on OWF. For details, please see the **Walkthrough** section on the [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) page.
+  To launch and test the newly modified widgets, deploy them on OWF. For details, please see the **Walkthrough** section on the [Adding a Widget to OWF](OWF-7-Developer-Adding-a-Widget-to-OWF) page.
 
 #3   Additional Considerations
 ##Channel Conventions

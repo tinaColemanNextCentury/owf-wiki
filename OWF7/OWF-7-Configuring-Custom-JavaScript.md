@@ -69,15 +69,15 @@ There is, however, a configuration parameter to set the name and location of the
 #2 Deploy or Recreate External JavaScript/CSS
 In order to deploy any changes made to external files inside the `js-plugins` folder to the OWF server, the minified JavaScript files must be recompiled to include the external files. The instructions for including the external JavaScript files are as follows:
 
-1.	From the command line, change the working directory to the `WEB-INF/tools`.
-2.	 Execute the `create-web-bundles` script to include the external files in the minified JavaScript files inside the **owf.war** file.
+1.      Shut down the OWF server if it is currently running.
+2.	From the command line, change the working directory to the `etc/tools`.
+3.	 Execute the `create-web-bundles` script to include the external files in the minified JavaScript files inside the **owf.war** file.
     * A.	On a Windows system, use the following command: 
 
-            create-web-bundles.bat -o ../../apache-tomcat-7.0.21/webapps/owf.war -js ../../apache-tomcat-7.0.21/lib/js-plugins
+            create-web-bundles.bat -o ..\..\apache-tomcat-7.0.21\webapps\owf.war -js ..\..\apache-tomcat-7.0.21\lib\js-plugins
     * B.	On a Unix system, use the following command:
 
-            sh create-web-bundles.sh -o ../../apache-tomcat-7.0.21/webapps/owf.war -js ../../apache-tomcat-7.0.21/lib/js-plugins
-3.	Shut down the OWF server if it is currently running.
+            bash create-web-bundles.sh -o ../../apache-tomcat-7.0.21/webapps/owf.war -js ../../apache-tomcat-7.0.21/lib/js-plugins
 4.	Navigate to the `apache-tomcat-7.0.21/webapps` folder and delete the owf folder if it exists.
 5.	Start OWF via `start.bat` or `start.sh`. Be sure to clear the browser’s cache to ensure the most recent minified files are being received.
 

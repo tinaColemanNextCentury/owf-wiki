@@ -81,7 +81,7 @@ In order to deploy any changes made to external files inside the `js-plugins` fo
 4.	Navigate to the `apache-tomcat-7.0.21/webapps` folder and delete the owf folder if it exists.
 5.	Start OWF via `start.bat` or `start.sh`. Be sure to clear the browser’s cache to ensure the most recent minified files are being received.
 
-> _Note: For testing purposes, changes made to external JavaScript files can immediately be viewed by opening OWF in debug mode, instructions for which can be found in 8.6: Debugging JavaScript/CSS Problems._
+> _Note: For testing purposes, changes made to external JavaScript files can immediately be viewed by opening OWF in debug mode, instructions for which can be found in section 6: **Debugging JavaScript/CSS Problems**._
 
 #3   JavaScript/CSS Bundle Naming Convention
 Individual JavaScript and CSS source files are concatenated into bundle files. The bundle files are minified or compressed and versioned. The original source JavaScript and CSS files which make up these bundle files are also included in the WAR for reference and extension. Every JavaScript or CSS source file has a compressed and versioned file, and a GZIP compressed and versioned file. For example the OWF-server JavaScript bundle source file is `js/owf-server.js`. The file is a concatenation of JavaScript files used for the main OWF page and it is readable. However, there are two other versions of the file referenced above:

@@ -7,3 +7,4 @@ Use the following guide to help you install and set up your instance of OWF.
 * [Clustering an OWF Environment](OWF-7-Clustering-an-OWF-Environment)
 * [Deploying OWF to an Existing Tomcat Instance](OWF-7-Deploy-OWF-in-Existing-Tomcat-Instance)
 * [Prior to OWF 6](OWF-7-Prior-to-OWF-6)
+* [Allowing Remote Access to OWF](OWF-7-Allowing-Remote-Access-to-OWF)

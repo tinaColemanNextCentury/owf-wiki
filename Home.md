@@ -17,6 +17,8 @@ The Build Instructions describe the installation and build base for the project.
 [[Tested Browsers|OWF-Overview]]<br>
 The Ozone Quality Assurance Team tests OWF against the listed browsers.
 
+[[OWF 7 Release Notes|OWF-7-Release-Notes]]
+
 ##User's Guide
 [User's Guide](https://github.com/ozoneplatform/owf/wiki/User's-Guide-Home)<br> 
 The User's Guide provides basic instructions for using OWF specifically widgets, dashboards, stacks and Marketplace. 

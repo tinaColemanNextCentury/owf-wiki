@@ -1,11 +1,11 @@
 # OWF 7 Release Notes 
-Release Date: December 21, 2012
+OWF 7 Release Date: December 21, 2012
 
 #Release Notes
 
 ##1 Installation Information
 
-Directions on how to install OWF may be found in the Quick Start Guide and in the Configuration Guide.
+OWF installation instructions are found in the [Configuration Guide](Configuration-Guide-Home).
 
 ##2 Upgrade Information
 

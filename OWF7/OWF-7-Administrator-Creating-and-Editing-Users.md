@@ -8,7 +8,7 @@ Administrators have the ability to create new user profiles, edit existing user 
 
 To create a new user profile:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar. 
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar. 
 2.	Choose the Users button to open the User Manager.
 3.	Click on the Create button, opening the User Editor. 
 4.	Enter the user’s information. Mandatory fields (User Name and Full Name) are denoted with a red asterisk. More information about these fields is found in the Edit Button and Editor Widget Fields Table.
@@ -23,7 +23,7 @@ The following instructions describe how to add widgets to a user account using t
 
 To add widgets to a user’s account:
 
-1. Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1. Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2. Click the Users button to open the User Manager.
 3. From the manager, select a User. Then, click Edit to open the User Editor.
 4. Click the Widgets tab at the top of the editor. Widgets that are already associated with the user will display in the window.  
@@ -35,7 +35,7 @@ Another way to give users access to widgets is to add users to widget profile vi
 
 To add users to widget profiles:
 
-1. Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1. Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2. Click the Widgets button to open the Widget Manager.
 3. From the manager, select a widget. Then, click Edit to open the Widget Editor.
 4. Click the Users tab at the top of the editor. Users that are already associated with the widget will display in the window.  
@@ -44,7 +44,7 @@ To add users to widget profiles:
 ##Editing User Properties 
 To edit existing user content:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Users to open the User Manager. 
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Users to open the User Manager. 
 2.	From the manager, select the user account that needs to be updated and click Edit. 
 3.	Update data on the Properties tab and click Apply. Update each field, then click Apply. For definitions of less common fields, see the Edit Button and Editor Widget Fields Table.
 
@@ -52,7 +52,7 @@ This procedure is also used when editing the properties of widgets, groups, grou
 
 ##User Preferences 
 
-![User Preferences](OWFImages/OWF7/preferences_tab.png)
+![User Preferences](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/preferences_tab.png)
 
 **Figure: Preferences Tab**
 
@@ -66,6 +66,6 @@ The Preferences tab includes the following fields:
 * <b>Namespace</b> - The namespace is the identifier for the widget or system category. Generally these identifiers will describe general functionality for a widget or set of widgets.
 * <b>Value</b> - Stored inside of the preference, values house the data that the preference uses. An example could be the actual widget GUID value that the preference will use to launch a widget. This is a string value but developers can use JSON or REST URIs as the preference value.
 
-![Preferences Dialog](OWFImages/OWF7/preferences_dialog.png)
+![Preferences Dialog](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/preferences_dialog.png)
 
 **Figure: Preferences Dialog**

@@ -145,7 +145,7 @@ This walkthrough will go through the process of creating a new widget called Sec
 
    Opening the SecondTracker widget ( **http(s)://servername:port/announcing-clock/SecondTraker.html** ) in a browser should look similar to the following figure.
 
-![SecondTracker Widget](OWFImages/OWF7/secondtracker_widget.png)
+![SecondTracker Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/secondtracker_widget.png)
 
 **Figure: SecondTracker Widget**
 

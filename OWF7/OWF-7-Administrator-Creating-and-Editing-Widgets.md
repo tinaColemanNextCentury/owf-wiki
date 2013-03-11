@@ -7,7 +7,7 @@ To create a widget, the administrator must complete several mandatory fields in 
 
 To create a widget:	
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2.	Click the Widgets button to open the Widget Manager.
 3.	From the manager, click the Create button to open the Widget Editor.
 4.	From here, there are two ways to create widgets:
@@ -27,7 +27,7 @@ Widget intents are the instructions for carrying out a widget’s intentions. In
 
 To add intents to a widget:
  
-1.	Click ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
+1.	Click ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
 2.	From the manager, select the widget to be updated and click Edit. 
 3.	Click the Intents tab. Click Create to open the Create Intent widget.
 4.	Complete the fields, required fields are marked with an asterisk.
@@ -45,7 +45,7 @@ Descriptor URLs offer several benefits. They reduce the risk of typing errors wh
 
 To edit existing widget content:
 
-1.	Click  ![Administration Button](OWFImages/OWF7/administration_button.png)  on the toolbar, select Widgets to open the Widget Manager. 
+1.	Click  ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png)  on the toolbar, select Widgets to open the Widget Manager. 
 2.	From the manager, select a widget and click Edit. 
 3.	Edit the widget data on the Properties tab and click Apply. For definitions of less common widget data fields, see the Edit Button and Editor Widget Fields Table.
 
@@ -56,7 +56,7 @@ Starting in OWF 7, administrators can update and edit the widget descriptor data
 
 To update the widget descriptor data:
 
-1.	Click ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager. 
+1.	Click ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager. 
 2.	From the manager, select a widget and click Edit. 
 3.	Click Load. The Widget Editor will automatically refresh and display the most recent widget descriptor data. 
 4.	Click Apply.
@@ -68,7 +68,7 @@ It is recommended that a developer, or an individual experienced with using inte
 
 To edit widget intents:
 
-1.	Click ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
+1.	Click ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
 2.	From the manager, select a widget and click Edit. 
 3.	Click the Intents tab, select an intent and click Edit.
 4.	Once changes have been made, click OK. OWF will automatically update the widget data.
@@ -78,7 +78,7 @@ Users assigned to this widget will see the changes automatically.
 
 To delete widget intents:
 
-1.	Click ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
+1.	Click ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Widgets to open the Widget Manager.
 2.	From the manager, select a widget and click Edit.
 3.	Click the Intents tab, select an intent and click Delete.
 
@@ -87,7 +87,7 @@ Starting with OWF 7, administrators can export and save widget data as a descrip
 
 To export a widget:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2.	Click on the Widgets button to open the Widgets Manager.
 3.	Select the widget to export. Click the arrow on the right of the split Edit button and choose Export.
 4.	Enter a File Name that describes the widget, this will become the title of the HTML descriptor file. Then click OK.

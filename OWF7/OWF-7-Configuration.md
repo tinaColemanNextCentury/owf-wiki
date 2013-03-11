@@ -46,7 +46,7 @@ To add users to any security module use X509 authentication, generated a PKI Use
 ##Help Content Configuration
 When a user clicks the question mark button in the toolbar, OWF offers online help:
  
-![OWF Toolbar](OWFImages/OWF7/help_button_on_toolbar.png) 
+![OWF Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/help_button_on_toolbar.png) 
 
 <b>Figure: Help Button on Toolbar</b>
 
@@ -252,7 +252,7 @@ From the `useShims` property in **OwfConfig.groovy**, developers can configure O
 ###Custom Last Sign-in Date
 OWF stores the last sign-in dates of all users and displays it in both the User Menu and inside administration widgets. While the administration widgets show the exact date and time, the User Menu displays a rounded approximation known as a fuzzy date shown below: 
 
-![Sign-in Information](OWFImages/OWF7/drop_down_user_menu.png)
+![Sign-in Information](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/drop_down_user_menu.png)
 
 <b>Figure: Sign-in displayed on drop-down User Menu</b>
 
@@ -278,7 +278,7 @@ OWF ships with placeholder text that is shown in the following configurable XML:
 ###Custom “Data-Entry” Message
 OWF ships with the ability to add a custom text-entry message area. The message can serve as a warning for text entry, or be a message directly related to the specific instance of OWF. The message appears in red and is positioned as shown in the image below: 
 
-![Free Text-Entry Warning Example](OWFImages/OWF7/group_editor.png?raw=true)
+![Free Text-Entry Warning Example](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/group_editor.png?raw=true)
 
 <b>Figure: Free Text-Entry Warning Example</b>
 
@@ -370,13 +370,13 @@ The Metrics Service can only be viewed in OWF. After following the steps in the 
 
 > _Note: OWF users who signed in using CAS will be prompted to sign in to additional security for the Metrics Service_. 
 
-![Metrics Widget](OWFImages/OWF7/metrics_widget.png)
+![Metrics Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/metrics_widget.png)
 
 <br><b>Figure: Metrics Widget</b>
 
 The widget opens to a Tag Cloud tab that lists widgets views (widgets that are viewed more will be larger in the Tag Cloud) and a grid of widget data. Clicking the name of a widget from the Tag Cloud or the grid switches to the widget’s Graph tab. This displays how many times that widget was viewed. To change the monitoring dates, click the calendar icon(s) above the graph. Use the arrows or click directly on the month and year to select different date durations. Clicking the month and year (identified in the image below) opens a drop-down date selector. After clicking OK, click the highlighted date on the calendar to complete the change.
 
-![Graphing Tab on the Metrics Widget ](OWFImages/OWF7/metrics_widget_graphing_tab.png) 
+![Graphing Tab on the Metrics Widget ](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/metrics_widget_graphing_tab.png) 
 
 <br><b>Figure: Graph Tab Displaying Date Switcher</b>
 

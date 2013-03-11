@@ -2,7 +2,7 @@
 Administration tools, located by clicking the Administration button on the toolbar, allow an administrator to manage widgets, groups, stacks, users and group dashboards. If Administrators use the Marketplace Approvals Widget, it will appear here by default. 
 
 
-![Administration Window](OWFImages/OWF7/admin_window.png)
+![Administration Window](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/admin_window.png)
 
 **Figure: Administrator Tools**
 
@@ -19,7 +19,7 @@ The manager information is broken into sub-sections:
 
 ##Manager Panel
 
-![Users Manager Panel](OWFImages/OWF7/user_manager_panel.png)
+![Users Manager Panel](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/user_manager_panel.png)
 
 **Figure: Users Manager Panel**
 
@@ -47,22 +47,22 @@ From the panel, an administrator can:
 
 Administrators use the manager widgets to create and delete users, widgets, groups, group dashboards and stacks. Differences between the five managers are referenced in sub-bullets.
  
-* ![Create Button](OWFImages/OWF7/create_button.png) - Launches the editor widget. From the editor, an administrator can create a new user/widget/group/group dashboard/stack (depending on which editor the administrator launches) and assign related data to the new entry. 
+* ![Create Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/create_button.png) - Launches the editor widget. From the editor, an administrator can create a new user/widget/group/group dashboard/stack (depending on which editor the administrator launches) and assign related data to the new entry. 
 
     * When creating a new entry, only the Properties tab will be active until the administrator saves the user/widget/group/group dashboard/stack via the Apply button.
 
-* ![Delete Button](OWFImages/OWF7/delete_button.png) - Deletes selected entries. Some user/widget/group/group dashboard/stack rules apply:
+* ![Delete Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/delete_button.png) - Deletes selected entries. Some user/widget/group/group dashboard/stack rules apply:
     * Deleting a <b>group</b> does not delete the users or widgets assigned to the group. It only deletes the pairing of users with widgets in the group. 
     * Deleting a <b>widget</b> removes it from a user’s Launch Menu and the groups to which it was assigned. 
     * Deleting a <b>group dashboard</b> removes it from the group. Individual users can continue to use their copy of the dashboard. However, the user’s individual copy will no longer have the option to restore to the group dashboard as described on the [Creating Group Dashboards](OWF-7-Administrator-Creating-Group-Dashboards) page. 
     * Deleting a <b>stack</b> removes it from the users and groups. Dashboards and widgets that are associated with the stack will also be deleted. 
 
 ###Management Buttons: Edit
-* ![Edit Button](OWFImages/OWF7/edit_button.png) - Clicking Edit on any administrative manager will launch the respective user/widget/group/group dashboard/stack editor, allowing an administrator to edit the entry. 
+* ![Edit Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/edit_button.png) - Clicking Edit on any administrative manager will launch the respective user/widget/group/group dashboard/stack editor, allowing an administrator to edit the entry. 
 
 > _Note: If an administrator launches the editor widgets in a fit dashboard, the editor widgets will “float” on top of the dashboard. Additional dashboard layout information is found in the [User’s Guide](User%27s-Guide-Home)._  
 
-![Tabs on the User Editor](OWFImages/OWF7/widgets_tab_on_user_editor_450px.png)
+![Tabs on the User Editor](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/widgets_tab_on_user_editor_450px.png)
 
 **Figure: Widgets Tab on the User Editor**
 
@@ -188,19 +188,19 @@ From the editor widget, administrators can create, edit and delete data assigned
 </table>
 
 #2   Manager Widgets—Search 
-![Search Box](OWFImages/OWF7/search_box.png) - Reduces the entries displayed in the panel to entries containing the specified word or characters entered in the search bar. Clicking the X button will clear the filter and display all entries in the panel. Clicking the search magnifying glass button will apply the search and display the filtered results in the panel.
+![Search Box](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/search_box.png) - Reduces the entries displayed in the panel to entries containing the specified word or characters entered in the search bar. Clicking the X button will clear the filter and display all entries in the panel. Clicking the search magnifying glass button will apply the search and display the filtered results in the panel.
 
 > _Note: This is a full-text search and it is NOT case-sensitive._
 
 ##Manager Widgets -- Pagination
 
-![Management Widget Pagination Toolbar](OWFImages/OWF7/manager_widgets_pagination_toolbar.png)
+![Management Widget Pagination Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/manager_widgets_pagination_toolbar.png)
 
 **Figure: Management Widget Pagination Toolbar**
 
-* ![Pagination Buttons](OWFImages/OWF7/pagination.png) - Navigates between pages of results displayed in the search results panel.
-* ![Refresh Button](OWFImages/OWF7/refresh_button.png) - Refreshes the results in the search results panel, maintaining the current filtering and sorting options.
-* ![Displaying Listing Results Information](OWFImages/OWF7/numbering.png) - Displays the number of results being shown against the overall total in the system.
+* ![Pagination Buttons](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/pagination.png) - Navigates between pages of results displayed in the search results panel.
+* ![Refresh Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/refresh_button.png) - Refreshes the results in the search results panel, maintaining the current filtering and sorting options.
+* ![Displaying Listing Results Information](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/numbering.png) - Displays the number of results being shown against the overall total in the system.
 
 #3 Widget Approval
 
@@ -210,13 +210,13 @@ By default, widgets are automatically added to a user’s Launch Menu when the u
 
 To approve pending widgets, an administrator must navigate to the Approvals Widget by clicking the Administration button on the toolbar and then selecting Approvals. 
 
-![Marketplace Approvals](OWFImages/OWF7/mp_approvals_button.png)
+![Marketplace Approvals](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/mp_approvals_button.png)
 
 **Figure: Marketplace Approvals**
 
 The Approvals Widget will open, which lists all the widgets pending approval. The list can be sorted by Widget or Requesting User. 
 
-![Approvals Widget](OWFImages/OWF7/approvals_widget.png)
+![Approvals Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/approvals_widget.png)
 
 **Figure: Approvals Widget**
 
@@ -241,7 +241,7 @@ In the Approvals Widget, an administrator has two ways to identify that a Market
 
 Both identifiers are highlighted in the following example:
 
-![Required Widget Identifiers](OWFImages/OWF7/required_widget.png)
+![Required Widget Identifiers](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/required_widget.png)
 
 **Figure: Required Widget Identifiers**
 

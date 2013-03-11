@@ -60,14 +60,14 @@ The custom widget titles only appear for the authenticated user’s instance of 
 It is possible for a dashboard to have multiple instances of the same widget open at the same time (unless the widget is a Singleton, see the **Singleton Widgets** section found on the [User Widgets](OWF-7-User-Widgets). Accordingly, a user may want to rename one or more instances of that widget. The title for each instance of an open widget on a dashboard is customizable per instance.
 The widget title can be edited by double-clicking the widget title in the widget header. The title will change to an input field where the user can modify it. Pressing enter on the keyboard or clicking anywhere on the dashboard will save the new title for the current instance. Regardless of the number of times the widget appears on the dashboard, the change will only impact that single widget.
 
-![Renaming a Widget](OWFImages/OWf7/renaming_widget.png)
+![Renaming a Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWf7/renaming_widget.png)
 
 <b> Figure: Renaming a Widget </b>
 
 ###Reverting to default name of Widgets
 To restore the default name of a widget, open the Widget Settings window by clicking the Settings button in the toolbar and then choosing Widgets. Then, right-click a widget and choose Reset Title. The widget will return to its default name. 
  
-![Restoring Default Image Name](OWFImages/OWF7/restoring_widget_name.png)
+![Restoring Default Image Name](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/restoring_widget_name.png)
 
 <b> Figure: Restoring Default Widget Name</b>
 

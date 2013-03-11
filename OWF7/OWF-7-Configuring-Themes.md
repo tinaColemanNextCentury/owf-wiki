@@ -1,6 +1,6 @@
 # Themes
 #1 Overview
-OWF includes four pre-made themes: a default OWF theme, two high-contrast themes and a large text theme. OWF developers can create their own themes to include in the OWF user interface. End-users can switch between themes by selecting the ![Settings](OWFImages/OWF7/settings_button_18px.png?raw=true) button on the toolbar and then choosing Themes. 
+OWF includes four pre-made themes: a default OWF theme, two high-contrast themes and a large text theme. OWF developers can create their own themes to include in the OWF user interface. End-users can switch between themes by selecting the ![Settings](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/settings_button_18px.png?raw=true) button on the toolbar and then choosing Themes. 
 
 Since the OWF 4 redesign, one line of code can change the overall color of OWF. Font size and font family are also adjustable. However, changing the entire look and feel of OWF requires additional work.
 
@@ -29,7 +29,7 @@ To obtain these dependencies:
 ##Layout of Themes Directory
 To locate the theme files unzip the `apache-tomcat-7.0.21/webapps/owf.war` and open the themes directory.  The following figure shows the layout of the theme files:
  
-![Themes Directory Structure](OWFImages/OWF7/themes_directory_structure.png)
+![Themes Directory Structure](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/themes_directory_structure.png)
 
 <b>Figure: Themes Directory Structure</b>
 
@@ -110,7 +110,7 @@ The following table provides a brief description of the theme folder and the fil
 
 The following table explains the files and folders that comprise a theme. The files and folders are found under a specific theme’s directory like the black-on-white theme shown in the following figure:
 
-![Black-on-White Theme Directory Structure](OWFImages/OWF7/bow_theme_directory_structure.png) 
+![Black-on-White Theme Directory Structure](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/bow_theme_directory_structure.png) 
 
 <b>Figure: Black-on-White Theme Directory Structure</b>
 

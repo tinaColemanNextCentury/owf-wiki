@@ -4,7 +4,7 @@
 The OZONE Widget Framework (OWF) supports diagnostic and error logging at a number of logging levels. While testing widgets in development, the log window can display log messages that have been output by the application. As mentioned, this capability is intended to be used for developers in building and testing their widgets and is not recommended for end-users in a production environment.
 
  ![Log Window Screen]  
- (OWFImages/OWF7/log_window_screen_400x313.png)
+ (https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/log_window_screen_400x313.png)
 
 **Figure: Log Window Screen**
 

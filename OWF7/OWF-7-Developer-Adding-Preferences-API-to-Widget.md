@@ -3,7 +3,7 @@
 
 The OWF Preference JavaScript API provides a convenient mechanism for the widget developer to store user specific data to the OWF database. A user preference is simply a string value that is uniquely mapped to a user, name and namespace combination. In the walkthrough below, a military time checkbox will be added to the Announcing Clock widget developed in the **Walkthrough** section on the [Creating a Widget](OWF-7-Developer-Creating-a-Widget) page.  The state of this check box, whether it has been checked or not, is stored in a user preference. The following is a screenshot of this preference taken from OWF’s Preference dialog:
 
-![Preferences Dialog](OWFImages/OWF7/preferences_dialog.png)
+![Preferences Dialog](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/preferences_dialog.png)
 
 **Figure: Preferences Dialog**
 
@@ -198,7 +198,7 @@ The deployment method used depends on the Web application server. Usually it is 
 
 The widget should now look like this:
 
-![Announcing Clock Widget With Preferences API](OWFImages/OWF7/announcing_clock_widget_with_preferences_api.png?)
+![Announcing Clock Widget With Preferences API](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/announcing_clock_widget_with_preferences_api.png?)
 
 **Figure: Announcing Clock Widget With Preferences API**
 

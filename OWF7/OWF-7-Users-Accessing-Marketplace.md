@@ -6,7 +6,7 @@ Marketplace, similar to a commercial application store, operates as a thin-clien
 
 Provided that OWF has been configured to recognize an instance of Marketplace, clicking the Marketplace button on the toolbar will open the Marketplace Switcher which may offer connections to multiple Marketplaces. 
 
-![Marketplace Switcher](OWFImages/OWF7/mp_switcher.png)
+![Marketplace Switcher](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/mp_switcher.png)
 
 <b>Figure: Marketplace Switcher</b>
 
@@ -16,7 +16,7 @@ In the Marketplace Switcher, users must click on a Marketplace to launch it. If 
 
 Users can add a Marketplace listing to their instance of OWF by selecting the listing, clicking the drop-down Actions button and selecting Add Widget. 
 
-![Adding Widgets from Marketplace](OWFImages/OWF7/adding_widgets_from_mp.png) 
+![Adding Widgets from Marketplace](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/adding_widgets_from_mp.png) 
 
 <b>Figure: Adding Widgets from Marketplace</b>
 
@@ -29,7 +29,7 @@ When a user selects a widget it is automatically added to the user’s Launch Me
 # 2 Required Widgets
 Some widgets will not function (or will have limited functionality) if they launch without other widgets. OWF automatically adds Required widgets when a user adds a widget that needs them. For example:  A user adds the Navigating Widget. The Navigating Widget requires the Satellite Widget and the Coordinate Calculator Widget. The user has not requested the additional two widgets but they are automatically added because the Navigating Widget requires them. 
 
-![Adding Required Widgets](OWFImages/OWF7/adding_required_widgets.png)
+![Adding Required Widgets](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/adding_required_widgets.png)
 
 <b>Figure: Adding Required Widgets</b>
 

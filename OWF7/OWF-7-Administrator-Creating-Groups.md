@@ -3,7 +3,7 @@ Groups allow administrators to easily add or remove widgets, dashboards and stac
 
 The following serves as a walkthrough for documentation purposes only. To create groups in OWF and to add users to that group:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2.	Click the Groups button to open the Groups Manager.
 3.	From the manager, click the Create button. This will launch the Group Editor.
 4.	Fill in the appropriate data on the Properties tab. Once the Apply button is clicked, the other tabs on the Group Editor will become active. Note the following:

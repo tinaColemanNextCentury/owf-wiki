@@ -14,7 +14,7 @@ All of the code examples listed in this document can be found in the **OWF-bundl
 
 In addition to often-modified files found in the /etc directory, OWF now delivers critical API related files outside the **.war** file for easy accessibility, as well. The directory structure is as follows:
 
-![Configuration and Development File Locations](OWFImages/OWF7/configuration_development_file_locations.png)
+![Configuration and Development File Locations](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/configuration_development_file_locations.png)
 
 **Figure: Configuration and Development File Locations**
 

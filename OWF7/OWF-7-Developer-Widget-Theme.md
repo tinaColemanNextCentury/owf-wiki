@@ -5,7 +5,7 @@ This walkthrough uses the Channel Listener example to explain widget theming. It
 
 Sample widgets that ship with OWF respond to the user’s current OWF theme. However, this section explains how a developer can customize their own widgets to match the default themes used in OWF. 
 
-![Channel Listener Shown in OWF’s Four Default Themes](OWFImages/OWF7/channel_listener_with_4_themes.png)
+![Channel Listener Shown in OWF’s Four Default Themes](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/channel_listener_with_4_themes.png)
 
 **Figure: Channel Listener Shown in OWF’s Four Default Themes**
 

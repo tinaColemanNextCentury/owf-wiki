@@ -146,7 +146,7 @@ To open the Advanced Search Panel, tab to the arrow button located in the center
     
 The Widget Switcher allows users to navigate between open widgets on their dashboards. To activate the Widget Switcher, press the global hot keys: Alt + Shift + Q. It displays in the center of the screen as shown in the following figure: 
 
-![Widget Switcher](OWFImages/OWf7/widget_switcher.png)
+![Widget Switcher](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWf7/widget_switcher.png)
 
 <b>Figure: Widget Switcher</b>
 
@@ -263,7 +263,7 @@ When working in grids, focus is denoted by showing the active style on the selec
 ###Widget Icons
 In all places in the OWF user interface where widgets are referenced by their icon, the “selected” style also functions as the focus style shown below:
 
-![Focused Widget Example](OWFImages/OWF7/focused_widget_example.png)
+![Focused Widget Example](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/focused_widget_example.png)
 
 <b>Figure: Focused Widget Example in Launch Menu</b>
 

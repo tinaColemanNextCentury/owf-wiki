@@ -17,7 +17,7 @@ OWF provides a set of standard layout options for organizing and displaying widg
 
 <b>Accordion dashboard layouts </b>display widgets in equal horizontal panes. When a widget is added to the dashboard, all the widgets are resized to display equally in the OWF window. The OWF window does not scroll. Each individual widget (as shown below) will scroll using its own scroll bar. 
 
-![Accordion Dashboard Layout](OWFImages/OWF7/accordion.png)
+![Accordion Dashboard Layout](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/accordion.png)
 
 <b>Figure: Accordion Dashboard Layout </b>
 
@@ -25,21 +25,21 @@ OWF provides a set of standard layout options for organizing and displaying widg
 
 Desktop dashboard layouts, similar to the desktop on most personal computers, allow the user to open widgets from the Launch Menu and place widgets freely in the window and minimize them on a taskbar. 
 
-![Desktop Dashboard Layout](OWFImages/OWF7/desktop_dashboard.png)
+![Desktop Dashboard Layout](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/desktop_dashboard.png)
 <br><b>Figure: Desktop Dashboard Layout</b>
 
 ###Portal Dashboard Layouts
 
 <b> Portal dashboard layouts </b>comprise a column-oriented layout that organizes widgets of varying heights. Each new widget loads above the first one on the screen. The user drags a dividing bar to specify widget height. The widgets and the OWF window scroll. 
 
-![Portal Dashboard Layout](OWFImages/OWF7/portal_dashboard.png)
+![Portal Dashboard Layout](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/portal_dashboard.png)
 
 <b>Figure: Portal Dashboard Layout</b>
 
 ###Tabbed Dashboard Layouts
 <b>Tabbed dashboard layouts</b> display one widget per screen. Like browser tabs, the tabs at the tob of the screen switch from one widget to another. 
 
-![Tabbed Dashboard Layout](OWFImages/OWF7/tabbed_dashboard.png)
+![Tabbed Dashboard Layout](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/tabbed_dashboard.png)
 
 <b>Figure: Tabbed Dashboard Layout</b>
 
@@ -49,7 +49,7 @@ Desktop dashboard layouts, similar to the desktop on most personal computers, al
 
 > _Note: Some widgets are automatically launched by other widgets. In these cases, the widgets will “float” on top of the dashboard._
 
-![Fit Dashboard Layout](OWFImages/OWF7/fit_dashboard.png)
+![Fit Dashboard Layout](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/fit_dashboard.png)
 
 <b>Figure: Fit Dashboard Layout</b>
 
@@ -68,7 +68,7 @@ A stack is a collection of dashboards and widgets. Users who receive a stack rec
 
 After a user creates and saves a dashboard, a link to that dashboard will appear as one of the choices under the Switcher button on the toolbar.
 
-![Switcher](OWFImages/OWF7/switcher.png)
+![Switcher](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/switcher.png)
 
 <b>Figure: Switcher</b>
 
@@ -94,7 +94,7 @@ To create a new dashboard:
 8. Click Save, the new dashboard will open. To add widgets, open the Launch Menu and Launch widgets.
 
 ###Dashboard Designer
-![Dashboard Designer](OWFImages/OWF7/dashboard_designer.png)
+![Dashboard Designer](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dashboard_designer.png)
 
 <b>Figure: Dashboard Designer</b>
 
@@ -102,22 +102,22 @@ The Dashboard Designer provides the following tools:
 ####Dividers
 When using the Dashboard Designer, there are two ways to divide the dashboard into sections: 
 
-* ![Horizontal Divider](OWFImages/OWF7/horizontal_db_divider.png)-- Horizontal Dividers can be used to divide the dashboard (or sub-sections of the dashboard) into upper and lower panes.
-* ![Vertical Divider](OWFImages/OWF7/vertical_db_divider.png) -- Vertical Dividers can be used to divide the dashboard (Or sub-sections of the dashboard) into left and right-side panes
+* ![Horizontal Divider](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/horizontal_db_divider.png)-- Horizontal Dividers can be used to divide the dashboard (or sub-sections of the dashboard) into upper and lower panes.
+* ![Vertical Divider](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/vertical_db_divider.png) -- Vertical Dividers can be used to divide the dashboard (Or sub-sections of the dashboard) into left and right-side panes
 
 ####Dashboard Layout Types
 
 There are currently five types of dashboard layouts. During the design process, any of the dashboard layouts can comprise a whole dashboard or a section of a dashboard:
 
-* ![Accordion Icon](OWFImages/OWF7/accordion_icon.png) -- Accordion Layout. See **Accordion Dashboard Layouts** for more details.
+* ![Accordion Icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/accordion_icon.png) -- Accordion Layout. See **Accordion Dashboard Layouts** for more details.
 
-* ![Desktop Icon](OWFImages/OWF7/desktop_icon.png) -- Desktop Layout. See **Desktop Dashboard Layouts** for more details.
+* ![Desktop Icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/desktop_icon.png) -- Desktop Layout. See **Desktop Dashboard Layouts** for more details.
 
-* ![Portal Icon](OWFImages/OWF7/portal_icon.png) -- Portal Layout. See **Portal Dashboard Layouts** for more details.
+* ![Portal Icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/portal_icon.png) -- Portal Layout. See **Portal Dashboard Layouts** for more details.
 
-* ![Tabbed Icon](OWFImages/OWF7/tabbed_icon.png) -- Tabbed Layout. See **Tabbed Dashboard Layouts** for more details.
+* ![Tabbed Icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/tabbed_icon.png) -- Tabbed Layout. See **Tabbed Dashboard Layouts** for more details.
 
-* ![Fit Icon](OWFImages/OWF7/fit_icon.png) -- Fit Layout. See **Fit Dashboard Layouts** for more details.
+* ![Fit Icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/fit_icon.png) -- Fit Layout. See **Fit Dashboard Layouts** for more details.
 
 ##5 Using the Dashboard Designer
 
@@ -136,7 +136,7 @@ The following walkthrough will explain how to build a new dashboard with Accordi
 5.	Drag a Horizontal Divider onto the Dashboard Designer; the screen will divide.
 6. Drag the Vertical Divider onto the upper level of the designer. The screen should mirror the image below:
 
-![Divided Dashboard Designer](OWFImages/OWF7/divided_db_designer.png)
+![Divided Dashboard Designer](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/divided_db_designer.png)
 
 <b>Figure: Divided Dashboard Designer</b>
 
@@ -150,7 +150,7 @@ In the image above, the right-side partner is surrounded by a solid red line. Th
 
 Next, the user can drag dashboard layout type icons into each section of the dashboard.
 
-![Dashboard Designer with Layout Icons](OWFImages/OWF7/db_designer_with_icons.png)
+![Dashboard Designer with Layout Icons](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/db_designer_with_icons.png)
 
 <b>Figure: Dashboard Designer with Layout Icons</b>
 
@@ -203,16 +203,16 @@ To rename a dashboard:
 ##7   Managing Dashboards
 Starting with OWF 7, users can Create, Edit, Delete and Share dashboards from the Switcher. To Edit, Delete or Share dashboards, open the Switcher (Alt + Shift + C), tab to the Manage button and press enter. This activates editing capabilities for each dashboard as shown below in the Administration Dashboard:
 
-![Manage Settings in the Switcher](OWFImages/OWF7/manage_settings_in_switcher.png)
+![Manage Settings in the Switcher](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/manage_settings_in_switcher.png)
 
 <b>Figure: Manage Settings in the Switcher</b>
 
 The Manage button allows users to:
 
-* ![Share icon](OWFImages/OWF7/Share_icon.png) - Share the dashboard JSON files 
-* ![Restore icon](OWFImages/OWF7/Restore_icon.png) - Restore a dashboard to its default state. 
-* ![Edit icon](OWFImages/OWF7/Edit_icon.png) - Edit existing dashboards (Edits include adding panels and layout types on a dashboard as well as changing the dashboard title and description). 
-* ![Delete icon](OWFImages/OWF7/Delete_icon.png) - Delete dashboards.
+* ![Share icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/Share_icon.png) - Share the dashboard JSON files 
+* ![Restore icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/Restore_icon.png) - Restore a dashboard to its default state. 
+* ![Edit icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/Edit_icon.png) - Edit existing dashboards (Edits include adding panels and layout types on a dashboard as well as changing the dashboard title and description). 
+* ![Delete icon](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/Delete_icon.png) - Delete dashboards.
 
 ###Sharing a Dashboard
 

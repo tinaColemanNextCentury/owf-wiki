@@ -5,14 +5,14 @@ Creating, editing and deleting a stack is similar to creating, editing and delet
 
 From a user’s standpoint:
 
-* Users can **customize**, **restore** and **delete** any stack assigned to them. Those changes will ONLY affect that user’s copy of the stack. Like group dashboards, users can return their stack to the current state of the stack by clicking the ![Restore](OWFImages/OWF7/Restore_icon.png) button (found by clicking Manage on the Switcher, then choosing a stack). 
+* Users can **customize**, **restore** and **delete** any stack assigned to them. Those changes will ONLY affect that user’s copy of the stack. Like group dashboards, users can return their stack to the current state of the stack by clicking the ![Restore](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/Restore_icon.png) button (found by clicking Manage on the Switcher, then choosing a stack). 
 * If a stack is deleted by an administrator, the user will no longer have a copy of the stack and the dashboards and widgets included in the stack.
 * Users cannot delete individual stack dashboards.
 * If an administrator changed the stack and the content of its dashboards after it was added to a user’s instance of OWF, the current state of the stack may be different than the one that originally appeared on the user’s Switcher. 
 
 To create a stack:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2.	Click on the Stacks button to open the Stacks Manager. Click Create to make a new stack.
 3.	From here there are two ways to create stacks:
 
@@ -38,7 +38,7 @@ Stack descriptor URLs offer several benefits. They can bundle large amounts of s
 ###Editing Stacks
 To edit existing stack content:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Stacks to open the Stacks Manager. 
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Stacks to open the Stacks Manager. 
 2.	From the manager, select a stack and click Edit. 
 3.	Edit the stack data and click Apply. 
 
@@ -53,7 +53,7 @@ To reorder a stack dashboard:
 
 Users assigned to the stack will see the changes in their Switcher when they log in to OWF or, if they are already signed in, when they Restore the stack.
 
-![Reorder Stack Dashboard](OWFImages/OWF7/reorder_stack_dashboard.png)
+![Reorder Stack Dashboard](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/reorder_stack_dashboard.png)
 
 **Figure: Reorder Stack Dashboard**
 
@@ -62,7 +62,7 @@ Administrators who create a stack via a descriptor URL can update and edit the i
 
 To retrieve the latest stack descriptor data:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar, select Stacks to open the Stack Manager. 
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar, select Stacks to open the Stack Manager. 
 2.	From the manager, select a stack and click Edit. 
 3.	Click Load. The Widget Editor will automatically refresh and display the most recent widget descriptor data. 
 4.	Click Apply. 
@@ -74,7 +74,7 @@ Administrators have the ability to export and save stack data as a descriptor fi
 
 To export a stack:
 
-1.	Click the ![Administration Button](OWFImages/OWF7/administration_button.png) button on the toolbar.
+1.	Click the ![Administration Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/administration_button.png) button on the toolbar.
 2.	Click the Stacks button to open the Stacks Manager.
 3.	Click the arrow on the right of the split Edit button and choose Export.
 4.	Enter a File Name, then click OK.

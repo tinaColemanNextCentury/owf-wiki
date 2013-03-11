@@ -9,7 +9,7 @@ Singleton widgets allow only one instance of the widget to launch on a dashboard
 ## Background Widgets
 Background widgets run but do not appear on a user’s dashboards. They often serve as caching and logging tools that do not have a user interface. Background widgets can be obtained from a Marketplace server or configured by an OWF administrator. Most users will not be aware that Background widgets are running in their instance of OWF. However, Background widgets will appear on the Widget Switcher. Closing them may interrupt data transfer from other widgets. Use the Widget Switcher (Alt + Shift + Q) to close Background widgets. After selecting a Background widget, a warning message will appear. To close the widget, select OK. If the Background widget is visible (an administrator has not hidden it from the Launch Menu), a user can restart it by dragging it from the Launch Menu to the dashboard. 
 
-![Backgroun Widget Warning Message](OWFImages/OWF7/background-widget-warning.png)
+![Backgroun Widget Warning Message](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/background-widget-warning.png)
 
 <b>Figure: Background Widget Warning Message </b>
 
@@ -32,7 +32,7 @@ OWF provides two search options. From the Launch Menu, users can search using:
     * <b>Reset</b> – Clears all filters.  
 
 ## Launching Widgets
-![Launch Menu](OWFImages/OWF7/launch_menu_expand.png)
+![Launch Menu](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/launch_menu_expand.png)
 
 <b>Figure: Launch Menu</b>
 

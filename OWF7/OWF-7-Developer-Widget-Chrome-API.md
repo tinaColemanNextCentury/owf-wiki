@@ -3,7 +3,7 @@
 
 This walkthrough will address the Widget Chrome API. For the purposes of this document, “chrome” refers to the visible frame which often surrounds a window or Web pages, as seen in the image below:
 
-![Widget Chrome Example](OWFImages/OWF7/widget_chrome_example_463x435.png)
+![Widget Chrome Example](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/widget_chrome_example_463x435.png)
 
 **Figure: Widget Chrome Example**
 

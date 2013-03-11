@@ -42,7 +42,7 @@ Copy and paste the following code into the **web.xml** file:
 
 The directory structure should read as follows:
 
-![Directory Structure](OWFImages/OWF7/directory_structure.png)
+![Directory Structure](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/directory_structure.png)
 
 **Figure: Directory Structure**
 
@@ -91,7 +91,7 @@ To create the **AnnouncingClock.html** file in the `webapp` directory instead of
 
 With the addition of the .html file, the directory structure should now read as follows:
 
-![Directory Structure with AnnouncingClock.html File](OWFImages/OWF7/directory_structure_with_announcing_clock_file.png?raw=true)
+![Directory Structure with AnnouncingClock.html File](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/directory_structure_with_announcing_clock_file.png?raw=true)
 
 **Figure: Directory Structure with AnnouncingClock.html File**
 
@@ -99,7 +99,7 @@ When opened in a browser, the Announcing Clock Widget should look similar to the
 
 > _Note: Use URL_ **http(s)://servername.port/DIRECTORY_FROM_STEP_2/announcing-clock/AnnouncingClock.html**.
 
-![Simple Announcing Clock Widget](OWFImages/OWF7/simple_announcing_clock_widget.png?raw=true)
+![Simple Announcing Clock Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/simple_announcing_clock_widget.png?raw=true)
 
 **Figure: Simple Announcing Clock Widget**
 

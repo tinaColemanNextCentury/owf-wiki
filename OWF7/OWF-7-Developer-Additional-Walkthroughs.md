@@ -25,7 +25,7 @@ See [Adding a Widget to OWF](OWF-7-Developer—Adding-a-Widget-to-OWF) for direc
 
 **Step 2: Examine the Function "launchSecondTracker"**
 
-![section 14.2 codeblock 1](OWFImages/OWF7/dev_guide_14.2_codeblock_1.png)
+![section 14.2 codeblock 1](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_14.2_codeblock_1.png)
 
 Note the bold (and highlighted) GUID, `cb71a25d-d435-4770-ab0f-f33d7db31812`. That GUID needs to be correct so that the Launching API can identify the widget to launch, i.e. "Second Tracker (Launched Version).” 
 
@@ -70,7 +70,7 @@ It is clear how the above function takes the JSON object returned in the functio
 
 **Step 3: Examine "SecondTracker_Launched.html"**
 
-![section 14.2 codeblock 2](OWFImages/OWF7/dev_guide_14.2_codeblock_2.png)
+![section 14.2 codeblock 2](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_14.2_codeblock_2.png)
 
 The bold (and highlighted) `var launchConfig = OWF.Launcher.getLaunchData()` text shows this function retrieving the launch configuration from the widget launching API.
 
@@ -99,7 +99,7 @@ The line of text above displays the exact name of the widget that “Announcing 
 
 In the text below is the function which allows the widget to search for the GUID is display. This function displays where the widget is searching for the GUID of the widget to launch:
 
-![section 14.3 codeblock](OWFImages/OWF7/dev_guide_14.3_codeblock.png)
+![section 14.3 codeblock](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_14.3_codeblock.png)
 
 In the bold (and highlighted) `searchParams` text, `widgetName` has been hard coded.  The bold (and highlighted) `onSuccess` and `onFailure` above show the two callbacks which can be passed. These are the individual functions which get called on those events.  On success, it simply launches the second tracker:
 

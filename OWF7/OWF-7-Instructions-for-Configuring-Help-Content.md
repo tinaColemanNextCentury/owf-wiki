@@ -2,7 +2,7 @@
 
 When a user clicks the Help button in the toolbar, OWF offers online help: 
 
-![Help Button on Toolbar](OWFImages/OWF7/help_button_on_toolbar.png)
+![Help Button on Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/help_button_on_toolbar.png)
 
 **Figure: Help Button on Toolbar**
 

@@ -113,21 +113,21 @@ The external toolbar object, `apache-tomcat-7.0.21/lib/js-plugins/Banner.js`, co
 
 The default, non-customized toolbar is shown below.
 
-![OWF Toolbar](OWFImages/OWF7/owf_toolbar.png)
+![OWF Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/owf_toolbar.png)
 
 <b>Figure: OWF Toolbar</b>
 
 When separated into configurable sections, the toolbar components are:
 
-![OWF Logo](OWFImages/OWF7/owf_logo.png)
+![OWF Logo](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/owf_logo.png)
 
 <b>Figure: OWF Logo Area</b>
 
-![Detachable Toolbar](OWFImages/OWF7/detachable_toolbar.png)
+![Detachable Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/detachable_toolbar.png)
 
 <b>Figure: Detachable Toolbar</b>
 
-![Drop-down User Menu](OWFImages/OWF7/drop_down_user_menu.png)
+![Drop-down User Menu](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/drop_down_user_menu.png)
 
 <b>Figure: User Menu</b>
 
@@ -200,7 +200,7 @@ Ext.define('Ozone.plugins.Banner', {
 ##Customizing the Toolbar User Menu
 The User Menu is represented in the image below. It contains the username, last sign-in date, product information and Sign Out feature. The User Menu is defined inside the **owf.war** file as `/js/components/button/UserMenuButton.js`.
 
-![Drop-down User Menu](OWFImages/OWF7/drop_down_user_menu.png)
+![Drop-down User Menu](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/drop_down_user_menu.png)
 
 <b>Figure: User Menu</b>
 
@@ -255,7 +255,7 @@ displayed on this element in the menu.</td>
 #5   Sample Customization
 A fully customized toolbar is shown in the image below. All code changes, along with developer notes can be used as examples when trying to modify installations of OWF. In the following example, the OWF logo changed and a search box was added.  
 
-![Customized Toolbar](OWFImages/OWF7/customized_toolbar.png)
+![Customized Toolbar](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/customized_toolbar.png)
 
 <b>Figure: Customized Toolbar</b>
 

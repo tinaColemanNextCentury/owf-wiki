@@ -8,7 +8,7 @@ When a new user enters OWF for the first time, the DEFAULT_USER data will be app
 
 > _Note: If an administrator makes changes to the DEFAULT_USER data set, it will only impact the users who log in for the first time, following the change. Any users who received the data prior to the change will not be affected._ 
 
-![User Dialog](OWFImages/OWF7/user_manager_dialog.png)
+![User Dialog](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/user_manager_dialog.png)
 
 **Figure: User Dialog/DEFAULT_USER**
 
@@ -16,7 +16,7 @@ When a new user enters OWF for the first time, the DEFAULT_USER data will be app
 
 When a new user enters OWF for the first time, the OWF Users group data will be applied and copied to that user’s profile. After the initial login, any changes that the user makes will only impact their data from that point on. However, if an administrator changes the OWF Users Group, the change will be applied to all users who have access to the group. 
 
-![Default OWF Users Group](OWFImages/OWF7/group_manager_default_users.png)
+![Default OWF Users Group](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/group_manager_default_users.png)
 
 **Figure: Default OWF Users Group**
 

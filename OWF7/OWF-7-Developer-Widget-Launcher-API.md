@@ -7,7 +7,7 @@ This walkthrough will go through the process of using the Widget Launcher API by
 
 > _Note: An additional Widget Launcher exercise is available in the **Overview - Adding the Widget Launcher** section of the [Additional Walkthroughs](OWF-7-Developer-Additional-Walkthroughs) page._
 
-Channel Listener allows the user to subscribe to channels by entering the channel name into a text box and pressing the ![Add Channel](OWFImages/OWF7/add_channel_61x16.png) button on the widget. The widget will then display any messages which are broadcast on the channels to which it is subscribed. Channel Shouter allows the user to publish messages to specific channels by entering both the name of a specific channel as well as the message text into text boxes and pressing the ![Broadcast](OWFImages/OWF7/broadcast_47x16.png) button. 
+Channel Listener allows the user to subscribe to channels by entering the channel name into a text box and pressing the ![Add Channel](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/add_channel_61x16.png) button on the widget. The widget will then display any messages which are broadcast on the channels to which it is subscribed. Channel Shouter allows the user to publish messages to specific channels by entering both the name of a specific channel as well as the message text into text boxes and pressing the ![Broadcast](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/broadcast_47x16.png) button. 
 
 To demonstrate the Widget Launcher API, if a user only has a Channel Shouter on their dashboard, any message sent by the Channel Shouter will launch the Channel Listener. Once launched, the Channel Listener will be listening to the same channel and display the messages which get broadcast by the Channel Shouter. 
 

@@ -327,8 +327,8 @@ Flex widgets may use a JavaScript file named **history.js**. This JavaScript fil
 
 Existing code:
 
-![section 13.4.4 codeblock 1](OWFImages/OWF7/dev_guide_13.4.4_codeblock_1.png)
+![section 13.4.4 codeblock 1](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_13.4.4_codeblock_1.png)
 
 Replacement code: 
 
-![section 13.4.4 codeblock 2](OWFImages/OWF7/dev_guide_13.4.4_codeblock_2.png?raw=true)
+![section 13.4.4 codeblock 2](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_13.4.4_codeblock_2.png?raw=true)

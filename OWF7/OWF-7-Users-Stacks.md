@@ -14,7 +14,7 @@ A user’s list of stacks appears intermingled with dashboards under the Switche
 ###Switching Stacks
 When a user selects a stack, a list of dashboards associated with the stack appear below it, as shown in the following figure:
 
-![Dashboards in a Stack](OWFImages/OWF7/stack_example.png)
+![Dashboards in a Stack](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/stack_example.png)
 
 <b>Figure: Dashboards in a Stack</b>
 

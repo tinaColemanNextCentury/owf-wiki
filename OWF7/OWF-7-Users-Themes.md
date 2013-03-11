@@ -1,12 +1,12 @@
 #Themes: High Contrast and Large Text
 In addition to the default Theme, OWF provides three accessibility themes to accommodate users with vision challenges. 
 
-![Settings Controls with Themes Selected](OWFImages/OWF7/settings_window.png)
+![Settings Controls with Themes Selected](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/settings_window.png)
 <br><b>Figure: Settings Controls with Themes Selected</b>
 
 ##Selecting a Theme
 
-![Theme Setting Window](OWFImages/OWF7/themes_window.png)
+![Theme Setting Window](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/themes_window.png)
 <br><b>Figure: Theme Settings Window</b>
 
 To select a theme:

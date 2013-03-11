@@ -7,7 +7,7 @@ A brief description of these two widgets and how they work together can be found
 
 #1   Color Server Widget
 
-![Color Client Widget](OWFImages/OWF7/color_server_widget.png)
+![Color Client Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/color_server_widget.png)
 
 **Figure: Color Server Widget**
 
@@ -15,11 +15,11 @@ The Color Server Widget performs two functions, each shown in the code block whi
 
 The code for the Color Server Widget is shown below:
 
-![Section 15.1.1 codeblock](OWFImages/OWF7/dev_guide_15.1.1_codeblock.png)
+![Section 15.1.1 codeblock](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_15.1.1_codeblock.png)
 
 #2   Color Client Widget
 
-![Color Client Widget](OWFImages/OWF7/color_client_widget.png)
+![Color Client Widget](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/color_client_widget.png)
 
 **Figure: Color Client Widget**
 
@@ -27,5 +27,5 @@ The Color Client widget contains a button that, when clicked, calls the Color Se
 
 The code for the Color Client Widget is shown below:
 
-![Section 15.1.2 codeblock 1](OWFImages/OWF7/dev_guide_15.1.2_codeblock_1.png)
-![Section 15.1.2 codeblock 2](OWFImages/OWF7/dev_guide_15.1.2_codeblock_2.png)
+![Section 15.1.2 codeblock 1](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_15.1.2_codeblock_1.png)
+![Section 15.1.2 codeblock 2](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/dev_guide_15.1.2_codeblock_2.png)

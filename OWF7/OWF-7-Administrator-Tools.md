@@ -78,7 +78,7 @@ From the editor widget, administrators can create, edit and delete data assigned
   </tr>
   <tr>
     <td>Activate/Deactivate</td>
-    <td>Users in active groups have full access to their group-assigned widgets. Users in a deactivated group will not have access to any of the widgets which are assigned to them via the deactivated group. When a group becomes deactivated it will appear gray. <br> *Note: If a user is in Group A and Group B and each group has Widget 1 assigned to it, the user will still have access to Widget 1 if Group A is deactivated and Group B is activated. Additionally, if the user has widget access outside of a group’s distribution, the user will not lose access to the widget, even if they lose group access.*</td>
+    <td>Users in active groups have full access to their group-assigned widgets. Users in a deactivated group will not have access to any of the widgets which are assigned to them via the deactivated group. When a group becomes deactivated it will appear gray. <br> <i>Note: If a user is in Group A and Group B and each group has Widget 1 assigned to it, the user will still have access to Widget 1 if Group A is deactivated and Group B is activated. Additionally, if the user has widget access outside of a group’s distribution, the user will not lose access to the widget, even if they lose group access.</i></td>
    <td>Group Manager (under the split Edit button); “Active” checkbox in the Group Editor, Properties Tab</td>
   </tr>
   <tr>
@@ -98,7 +98,7 @@ From the editor widget, administrators can create, edit and delete data assigned
   </tr>
   <tr>
    <td>Default Tags</td>
-   <td>Specifies the default tags (comma separated, if needed) that facilitate widget categorization. Default tags cannot be deleted by the user; however, users can add additional tags to widgets in their instance of OWF. Default Tags are superseded by grouped widgets, which are explained on the [Grouping Widgets](OWF-7-Administrator-Grouping-Widgets) page.</td>
+   <td>Specifies the default tags (comma separated, if needed) that facilitate widget categorization. Default tags cannot be deleted by the user; however, users can add additional tags to widgets in their instance of OWF. Default Tags are superseded by grouped widgets, which are explained on the <a href="https://github.com/ozoneplatform/owf/wiki/OWF-7-Administrator-Grouping-Widgets">Grouping Widgets</a> page.</td>
    <td>Widget Editor, Properties Tab</td>
   </tr>
   <tr>
@@ -127,7 +127,7 @@ From the editor widget, administrators can create, edit and delete data assigned
   </tr>
   <tr>
    <td>Intents</td>
-   <td>Widget intents build on OWF’s publish/subscribe functionality by allowing users to choose the widget that will use its data. Intents explain the intention for the widget. This binding capability enables two widgets to enhance each other’s functionality. <br> *Note: Only developers can modify intents via the widget’s descriptor file; instructions are available in the OWF Developer’s Guide.*</td>
+   <td>Widget intents build on OWF’s publish/subscribe functionality by allowing users to choose the widget that will use its data. Intents explain the intention for the widget. This binding capability enables two widgets to enhance each other’s functionality. <br> <i>Note: Only developers can modify intents via the widget’s descriptor file; instructions are available in the OWF Developer’s Guide.</i></td>
    <td>Widget Editor, Intents Tab</td>
   </tr>
   <tr>
@@ -177,7 +177,7 @@ From the editor widget, administrators can create, edit and delete data assigned
   </tr>
   <tr>
    <td>Widget Type</td>
-   <td>A drop-down menu for selecting the widget type which determines where the widget will be located. Only standard widgets appear in the Launch Menu. Administration widgets will appear under the Administration button on the toolbar. Widgets set to type Marketplace will appear under the Marketplace button on the toolbar. Metric widgets appear under the Metric button on the toolbar. <br> *Note: Instructions explaining how to associate OWF with a Metrics Service are found in the OWF Configuration Guide.*</td>
+   <td>A drop-down menu for selecting the widget type which determines where the widget will be located. Only standard widgets appear in the Launch Menu. Administration widgets will appear under the Administration button on the toolbar. Widgets set to type Marketplace will appear under the Marketplace button on the toolbar. Metric widgets appear under the Metric button on the toolbar. <br> <i>Note: Instructions explaining how to associate OWF with a Metrics Service are found in the OWF Configuration Guide.</i></td>
    <td>Widget Editor, Properties Tab</td>
   </tr>
   <tr>

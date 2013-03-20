@@ -1,4 +1,4 @@
-#Known Issue
+# Known Issues
 #1   User Interface Issues
 
 **Changes in screen resolution may render widgets un-viewable.**

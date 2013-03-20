@@ -58,7 +58,7 @@ This procedure is also used when editing the properties of widgets, groups, grou
 
 Widgets use preferences to store data. Preferences include widget location on the screen, launching instructions, etc. A preference value can be created and saved any time a widget performs an action. Once that preference is saved to the database, it will appear on the preferences tab in the User Editor. The Preferences tab serves as a table of known preferences. From the tab, administrators can view, create, edit and delete preferences. However, from the Preferences tab, the administrator cannot configure a widget to use a preference. For a widget to respond to preferences, the widget must be configured via the Preference API. 
 
-If a widget is configured to use preferences, they can be used to define screen location, widget interaction, etc. For example, the guid_to_launch preference is a useful eventing tool. Administrators can use it to make a tracking widget launch a map widget. For example, in Figure 10: Preferences Tab, the guid_to_launch preference causes the User Manager to launch a copy of the Widget Editor. 
+If a widget is configured to use preferences, they can be used to define screen location, widget interaction, etc. For example, the guid_to_launch preference is a useful eventing tool. Administrators can use it to make a tracking widget launch a map widget. For example, in the Preferences Tab figure, the guid_to_launch preference causes the User Manager to launch a copy of the Widget Editor. 
 
 The Preferences tab includes the following fields: 
 

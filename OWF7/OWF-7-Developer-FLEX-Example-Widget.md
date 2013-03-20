@@ -60,25 +60,63 @@ The following is required to build/deploy this example:
 
 **Table: Flex Pan Widget Definition Text**
 
-    Definition   | Data Input Field
-  -------------  | -------------
-             URL | http://widget-server-name:port/owf-sample-flex/pan.html
-    Large Icon   | http://widget-server-name:port/owf-sample-flex/images/pan.gif
-    Small Icon   | http://widget-server-name:port/owf-sample-flex/images/pansm.gif
-           Width | 800
-          Height | 400
+<table>
+   <tr>
+       <th>Definition</th>
+       <th>Data Input Field</th>
+   </tr>
+   <tr>
+       <td>URL</td>
+       <td>http://widget-server-name:port/owf-sample-flex/pan.html</td>
+   </tr>
+   <tr>
+       <td>Large Icon</td>
+       <td>http://widget-server-name:port/owf-sample-flex/images/pan.gif</td>
+   </tr>
+   <tr>
+       <td>Small Icon</td>
+       <td>http://widget-server-name:port/owf-sample-flex/images/pansm.gif</td>
+   </tr>
+   <tr>
+       <td>Width</td>
+       <td>800</td>
+   </tr>
+   <tr>
+       <td>Height</td>
+       <td>400</td>
+   </tr>
+</table>
 
 Repeat step 1 for the **direct.html** widget. Use the following data for widget definitions:
 
 **Table: Flex Monitor Direct Widget Definition Text**
 
-    Definition   | Data Input Field
-  -------------  | -------------
-             URL | http://widget-server-name:port/owf-sample-flex/direct.html
-    Large Icon   | http://widget-server-name:port/owf-sample-flex/images/direct.gif
-    Small Icon   | http://widget-server-name:port/owf-sample-flex/images/directsm.gif
-           Width | 300
-          Height | 305
+<table>
+   <tr>
+       <th>Definition</th>
+       <th>Data Input Field</th>
+   </tr>
+   <tr>
+       <td>URL</td>
+       <td>http://widget-server-name:port/owf-sample-flex/direct.html</td>
+   </tr>
+   <tr>
+       <td>Large Icon</td>
+       <td>http://widget-server-name:port/owf-sample-flex/images/direct.gif</td>
+   </tr>
+   <tr>
+       <td>Small Icon</td>
+       <td>http://widget-server-name:port/owf-sample-flex/images/directsm.gif</td>
+   </tr>
+   <tr>
+       <td>Width</td>
+       <td>300</td>
+   </tr>
+   <tr>
+       <td>Height</td>
+       <td>305</td>
+   </tr>
+</table>
 
 Launch both widgets and use the functions on each widget to see how navigational commands and locations are shared between the two widgets.
 

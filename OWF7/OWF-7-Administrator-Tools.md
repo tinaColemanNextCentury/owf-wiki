@@ -47,18 +47,19 @@ From the panel, an administrator can:
 
 Administrators use the manager widgets to create and delete users, widgets, groups, group dashboards and stacks. Differences between the five managers are referenced in sub-bullets.
  
-* ![Create Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/create_button.png) - Launches the editor widget. From the editor, an administrator can create a new user/widget/group/group dashboard/stack (depending on which editor the administrator launches) and assign related data to the new entry. 
+![Create Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/create_button.png) - Launches the editor widget. From the editor, an administrator can create a new user/widget/group/group dashboard/stack (depending on which editor the administrator launches) and assign related data to the new entry. 
 
-    * When creating a new entry, only the Properties tab will be active until the administrator saves the user/widget/group/group dashboard/stack via the Apply button.
+  * When creating a new entry, only the Properties tab will be active until the administrator saves the user/widget/group/group dashboard/stack via the Apply button.
 
-* ![Delete Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/delete_button.png) - Deletes selected entries. Some user/widget/group/group dashboard/stack rules apply:
-    * Deleting a <b>group</b> does not delete the users or widgets assigned to the group. It only deletes the pairing of users with widgets in the group. 
-    * Deleting a <b>widget</b> removes it from a user’s Launch Menu and the groups to which it was assigned. 
-    * Deleting a <b>group dashboard</b> removes it from the group. Individual users can continue to use their copy of the dashboard. However, the user’s individual copy will no longer have the option to restore to the group dashboard as described on the [Creating Group Dashboards](OWF-7-Administrator-Creating-Group-Dashboards) page. 
-    * Deleting a <b>stack</b> removes it from the users and groups. Dashboards and widgets that are associated with the stack will also be deleted. 
+![Delete Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/delete_button.png) - Deletes selected entries. Some user/widget/group/group dashboard/stack rules apply:
+
+  * Deleting a <b>group</b> does not delete the users or widgets assigned to the group. It only deletes the pairing of users with widgets in the group. 
+  * Deleting a <b>widget</b> removes it from a user’s Launch Menu and the groups to which it was assigned. 
+  * Deleting a <b>group dashboard</b> removes it from the group. Individual users can continue to use their copy of the dashboard. However, the user’s individual copy will no longer have the option to restore to the group dashboard as described on the [Creating Group Dashboards](OWF-7-Administrator-Creating-Group-Dashboards) page. 
+  * Deleting a <b>stack</b> removes it from the users and groups. Dashboards and widgets that are associated with the stack will also be deleted. 
 
 ###Management Buttons: Edit
-* ![Edit Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/edit_button.png) - Clicking Edit on any administrative manager will launch the respective user/widget/group/group dashboard/stack editor, allowing an administrator to edit the entry. 
+![Edit Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/edit_button.png) - Clicking Edit on any administrative manager will launch the respective user/widget/group/group dashboard/stack editor, allowing an administrator to edit the entry. 
 
 > _Note: If an administrator launches the editor widgets in a fit dashboard, the editor widgets will “float” on top of the dashboard. Additional dashboard layout information is found in the [User’s Guide](User%27s-Guide-Home)._  
 
@@ -177,7 +178,7 @@ From the editor widget, administrators can create, edit and delete data assigned
   </tr>
   <tr>
    <td>Widget Type</td>
-   <td>A drop-down menu for selecting the widget type which determines where the widget will be located. Only standard widgets appear in the Launch Menu. Administration widgets will appear under the Administration button on the toolbar. Widgets set to type Marketplace will appear under the Marketplace button on the toolbar. Metric widgets appear under the Metric button on the toolbar. <br> <i>Note: Instructions explaining how to associate OWF with a Metrics Service are found in the OWF Configuration Guide.</i></td>
+   <td>A drop-down menu for selecting the widget type which determines where the widget will be located. Only standard widgets appear in the Launch Menu. Administration widgets will appear under the Administration button on the toolbar. Widgets set to type Marketplace will appear under the Marketplace button on the toolbar. Metric widgets appear under the Metric button on the toolbar. <br> <i>Note: Instructions explaining how to associate OWF with a Metrics Service are found in the <a href="https://github.com/ozoneplatform/owf/wiki/Configuration-Guide-Home">OWF Configuration Guide</a>.</i></td>
    <td>Widget Editor, Properties Tab</td>
   </tr>
   <tr>
@@ -198,9 +199,9 @@ From the editor widget, administrators can create, edit and delete data assigned
 
 **Figure: Management Widget Pagination Toolbar**
 
-* ![Pagination Buttons](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/pagination.png) - Navigates between pages of results displayed in the search results panel.
-* ![Refresh Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/refresh_button.png) - Refreshes the results in the search results panel, maintaining the current filtering and sorting options.
-* ![Displaying Listing Results Information](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/numbering.png) - Displays the number of results being shown against the overall total in the system.
+![Pagination Buttons](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/pagination.png) - Navigates between pages of results displayed in the search results panel.
+![Refresh Button](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/refresh_button.png) - Refreshes the results in the search results panel, maintaining the current filtering and sorting options.
+![Displaying Listing Results Information](https://github.com/ozoneplatform/owf/wiki/OWFImages/OWF7/numbering.png) - Displays the number of results being shown against the overall total in the system.
 
 #3 Widget Approval
 

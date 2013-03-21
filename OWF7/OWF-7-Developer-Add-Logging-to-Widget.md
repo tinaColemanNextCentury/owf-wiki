@@ -82,14 +82,36 @@ There are six levels of logging. These levels are described in the table below:
 
 **Table: Log Levels**
 
-            Level   | Purpose
-        -------------  | -------------
-          TRACE | Indicates a level of logging which depicts program flow. For example, Entry/Exit of functions along with loop or condition statements. In general, this is used for tracking down specific problems, but may be removed once the problem has been solved.
-          DEBUG | Outputs information that may be useful to developers running the application.
-          INFO | Outputs information that may be useful for users and may be helpful in tracking down issues with a deployed system.
-          WARN | Displays error conditions that can be successfully handled and do not cause the application to perform unexpectedly.
-          ERROR | Displays errors that prevent the application from executing in a successful fashion.
-          FATAL | Displays conditions that cause the application from failing to load or are about to cause the application to cease operating.
+<table>
+  <tr>
+    <th>Level</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+     <td>TRACE</td>
+     <td>Indicates a level of logging which depicts program flow. For example, Entry/Exit of functions along with loop or condition statements. In general, this is used for tracking down specific problems, but may be removed once the problem has been solved.</td>
+  </tr>
+  <tr>
+     <td>DEBUG</td>
+     <td>Outputs information that may be useful to developers running the application.</td>
+  </tr>
+  <tr>
+     <td>INFO</td>
+     <td>Outputs information that may be useful for users and may be helpful in tracking down issues with a deployed system.</td>
+  </tr>
+  <tr>
+     <td>WARN</td>
+     <td>Displays error conditions that can be successfully handled and do not cause the application to perform unexpectedly.</td>
+  </tr>
+  <tr>
+     <td>ERROR</td>
+     <td>Displays errors that prevent the application from executing in a successful fashion.</td>
+  </tr>
+  <tr>
+     <td>FATAL</td>
+     <td>Displays conditions that cause the application from failing to load or are about to cause the application to cease operating.</td>
+  </tr>
+</table>
 
 For more information about the format of the log messages visit: [http://log4javascript.org/docs/manual.html](http://log4javascript.org/docs/manual.html)
 

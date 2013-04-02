@@ -156,7 +156,7 @@ Another way to determine which widget to launch is to search using its Universal
                 OWF.Preferences.getWidget({
                     	universalName: 'org.owfgoss.owf.examples.NYSE',
                     	onSuccess: function(result) {
-                                 scope.guid = result.guid;
+                                 scope.guid = result.path;
                     	},
                         onFailure: function(err) { /* No op */
                         } 

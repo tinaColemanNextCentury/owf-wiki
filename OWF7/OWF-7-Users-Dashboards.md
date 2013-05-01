@@ -88,9 +88,9 @@ To create a new dashboard:
  >  _Note: The Dashboard cannot be saved until it is named._
 
 4. Provide an optional Description.
-5. Optionally, a user can select from the following radio buttons:
-    * <b>Create from existing</b> - select the dashboard layout from the drop-down selector.
-    * <b>Import</b> - Browse to and import a saved JSON configuration file.
+5. Optional: Select one of the following radio buttons to create a new dashboard using existing dashboard data. Dashboard data includes layout information and populated widgets.
+    * <b>Create from existing</b> - Use existing dashboard data by selecting the dashboard from the drop-down selector.
+    * <b>Import</b> - Import dashboard data by browsing to the dashboard's saved JSON configuration file.
 6. Click OK. This will load the Dashboard Designer.
 7. In the Dashboard Designer, select layouts and divisions for the dashboard.
 8. Click Save, the new dashboard will open. To add widgets, open the Launch Menu and Launch widgets.

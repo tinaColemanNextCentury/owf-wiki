@@ -83,12 +83,14 @@ To create a new dashboard:
 
 1. Click the Switcher button on the toolbar to open it.
 2. Click the + to open the Create Dashboard window.
-3. Give the dashboard a Title. 
-    > _Note: The Dashboard cannot be saved until it is named._
+3. Give the dashboard a Title. <br>
+
+ >  _Note: The Dashboard cannot be saved until it is named._
+
 4. Provide an optional Description.
 5. Optionally, a user can select from the following radio buttons:
-    * Create from existing and select the dashboard layout from the drop-down selector.
-    * Import a dashboard by browsing to and importing a saved JSON configuraiton file.
+    * <b>Create from existing</b> - select the dashboard layout from the drop-down selector.
+    * <b>Import</b> - Browse to and import a saved JSON configuration file.
 6. Click OK. This will load the Dashboard Designer.
 7. In the Dashboard Designer, select layouts and divisions for the dashboard.
 8. Click Save, the new dashboard will open. To add widgets, open the Launch Menu and Launch widgets.

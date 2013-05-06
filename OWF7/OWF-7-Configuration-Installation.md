@@ -350,7 +350,8 @@ To enable ports other than `8080/8443` while using Spring Security, the desired 
 
 > _Note: In the event that OWF is running on a server where a port number is already in use, OWF must run from a different port number. Two applications cannot bind to the same port._
 
-1.	For example, in Tomcat, change the port numbers in **conf/server.xml**from: 
+1. For example, in Tomcat, change the port numbers in **conf/server.xml** from: 
+        
         Connector port="5050" protocol="HTTP/1.1" 
                connectionTimeout="20000" 
                redirectPort="5443" />

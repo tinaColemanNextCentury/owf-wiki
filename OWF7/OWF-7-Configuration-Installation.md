@@ -39,7 +39,7 @@ The following example shows how an administrator might copy, unzip, and start OW
 
 1.	Create a new directory from where OWF will be run. This can be done via the Windows UI or a command prompt.
 2.	Copy **OWF-bundle-7-GA.zip** to the new directory created in step 1.
-3.	Right-click on **OWF-bundle-7-GA.zip** and select `open, explore` or the command for the system’s default zip/unzip program.
+3.	Right-click on **OWF-bundle-7-GA.zip** and select `open`, `explore` or the command for the system’s default zip/unzip program.
 4.	Unzip/unpack the bundle into the new directory created in step 1.
 5.	From a command-line, run `start.bat` from within the `apache-tomcat-7.0.21` directory.
 
@@ -51,14 +51,14 @@ Running the OWF Bundle via the included Tomcat Web server with the default value
 
 > _Note: If OWF 7 is installed as an upgrade, please see [Upgrading to OWF 7](Upgrading-to-OWF-7)._
 
-The application uses a `KeyStore` and a `Truststore` which are local to the installation. There is no need to install any certificates into the server’s Java installation. The default certificates contained in the OWF Bundle only function for `localhost` communications. When accessed from a remote machine with a name that differs from `localhost`, while using the included certificates, OWF will not function correctly. Accordingly, see 3.5.5: Server Certificate Creation and Installation for information about creating additional certificates. 
+The application uses a `KeyStore` and a `Truststore` which are local to the installation. There is no need to install any certificates into the server’s Java installation. The default certificates contained in the OWF Bundle only function for `localhost` communications. When accessed from a remote machine with a name that differs from `localhost`, while using the included certificates, OWF will not function correctly. Accordingly, see the **Server Certificate Creation and Installation** section for information about creating additional certificates. 
 
 ###Installing User PKI Certificates
 By default, the security infrastructure of the OWF Bundle is configured to use client certificates with CAS fallback. In order to identify themselves via certificates, clients need to install a PKI certificate into their Web browser. The client certificates that are included with the OWF bundle will be recognized immediately and can be used in the default security configuration. The certificates are located in the `\apache-tomcat-7.0.21\certs` directory of the OWF bundle. 
 
-The default client certificates can be used by importing the included `testUser1.p12` or `testAdmin1.p12` certificate into the user’s browser. In Internet Explorer, client certificates can be added by selecting Tools -> Internet Options -> Content -> Certificates -> Personal, and then clicking the Import button. The certificate `testUser1` grants rights to use the application, while `testAdmin1` is a certificate for a user granted both user rights and administrator rights. The private key password for both certificates is `password`.
+The default client certificates can be used by importing the included `testUser1.p12` or `testAdmin1.p12` certificate into the user’s browser. In Internet Explorer, client certificates can be added by selecting Tools → Internet Options → Content → Certificates → Personal, and then clicking the Import button. The certificate `testUser1` grants rights to use the application, while `testAdmin1` is a certificate for a user granted both user rights and administrator rights. The private key password for both certificates is `password`.
 
-In Firefox, this menu is accessed via Tools -> Options -> Advanced -> Encryption -> View Certificates ->Your Certificates -> Import. 
+In Firefox, this menu is accessed via Tools → Options → Advanced → Encryption → View Certificates → Your Certificates → Import. 
 
 > _Note: Depending on the browser, importing certificates may cause warning messages to be displayed before accessing OWF. Web browsers will allow exceptions to be added to permit usage of these certificates the first time they are accessed._
 
@@ -181,7 +181,7 @@ shutdown=true
 ##Using Oracle
 1.	Create an Oracle database user for OWF. It is recommended that there be a dedicated user for OWF to avoid database object name collisions. The OWF team recommends using UTF-8 encoding.
 2.	Due to licensing issues, OWF does not provide a JDBC driver for Oracle. Obtain the appropriate JDBC driver and place it into the Web server’s classpath. For example, if running Tomcat, the driver can be placed in the `\apache-tomcat-7.0.21\lib` directory. 
-3.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments -> production -> dataSource` section using the values that are appropriate for the OWF environment. For example:
+3.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments → production → dataSource` section using the values that are appropriate for the OWF environment. For example:
 
  ```groovy
         dataSource {
@@ -221,7 +221,7 @@ shutdown=true
 * Create a schema within MySQL for use with OWF. It is recommended that there be a dedicated schema for OWF to avoid database object name collisions. The OWF team recommends using UTF-8 encoding.
 * Create a MySQL User with full access to the OWF schema created above.
 * OWF does not provide a JDBC driver for MySQL. Obtain the appropriate JDBC driver and place it into the Web server’s classpath. For example, if running Tomcat, the driver can be placed in the `\apache-tomcat-7.0.21\lib` directory.
-* Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments -> production -> dataSource` section using the values that are appropriate for the OWF environment. 
+* Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments → production → dataSource` section using the values that are appropriate for the OWF environment. 
 
 For example:
 
@@ -261,7 +261,7 @@ For example:
 2.	Edit the user so that it can create database objects. 
 3.	Create a new database. Use UTF-8 as encoding (default).
 4.	OWF does not provide a JDBC driver for PostgreSQL. Obtain the appropriate JDBC driver and place it into the Web server’s classpath. For example, if running Tomcat, the driver can be placed in the `\apache-tomcat-7.0.21\lib` directory.
-5.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments -> production -> dataSource` section using the values that are appropriate for the OWF environment. 
+5.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments → production → dataSource` section using the values that are appropriate for the OWF environment. 
  For example:
 
  ```groovy
@@ -288,9 +288,9 @@ For example:
   In the example above, a PostgreSQL database user named owf_user with a password of owf is used, for a database named OWF. 
 6.	Create the schema by running the `\dbscript\PostgreSQLPrefsInitialCreate.sql` script before starting OWF.
 7.	If OWF is being installed as a production environment, this can serve as the final step. However, if sample data is required (e.g., creating a testing environment), the remaining steps can be followed.
- > _Note: If sample data scripts ( mentioned in step 7) are to be run, script execution must take place before logging into OWF. Logging in before the execution of the script can cause system failure._
+ > _Note: If sample data scripts (mentioned in step 7) are to be run, script execution must take place before logging into OWF. Logging in before the execution of the script can cause system failure._
 8.	Open the administration tool for PostgreSQL (pgAdmin III), connect to the OWF server as `owf_user`, and select the SQL icon.
-9.	When the query window opens, select `File -> Open` and navigate to `\dbscripts\PostgreSQLPrefsUpdate_v7.0.0.sql` in the bundle.
+9.	When the query window opens, select File → Open and navigate to `\dbscripts\PostgreSQLPrefsUpdate_v7.0.0.sql` in the bundle.
 
  > _Note: ONLY run this script against an empty database as it will delete pre-existing data._
 
@@ -301,7 +301,7 @@ For example:
 1.	Create a new SQL Server database for use with OWF.
 2.	Create a SQL Server user with full access to the OWF database created above.
 3.	OWF does not provide a JDBC driver for SQL Server. Obtain the appropriate JDBC driver and place it on the Web server’s classpath. For example, if running Tomcat, the driver can be placed in the `\apache-tomcat-7.0.21\lib` directory.
-4.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments  production -> dataSource` section using the values that are appropriate for the OWF environment. 
+4.	Open the **\apache-tomcat-7.0.21\lib\OwfConfig.groovy** file and modify the `environments  production → dataSource` section using the values that are appropriate for the OWF environment. 
   For example:
 
  ```groovy
@@ -329,7 +329,7 @@ For example:
 5.	Create the schema by running the `SQLServerPrefsInitialCreate.sql` script, prior to starting OWF.
 If sample data is required (e.g., creating a testing environment), the remaining steps can be followed.
 > _Note: If sample data scripts (as mentioned in step 5) are to be run, script execution must take place before logging into OWF. Logging in before the execution of the script can cause system failure._
-6.	Open Microsoft SQL Server Management Studio (or another database editing tool) and select File -> Open File.
+6.	Open Microsoft SQL Server Management Studio (or another database editing tool) and select File → Open File.
 7.	Navigate to `\dbscripts\SQLServerPrefsUpdate_v7.0.0.sql` in the bundle.
 > _Note: This script should ONLY be run against an empty database as it will delete pre-existing data._
 8.	 Select the OWF database, and execute the script.

@@ -249,14 +249,14 @@ To build the bundle, type the following on the command line and press Enter:
 
         C:\owf-server>ant bundle
 
-The bundle task will do a clean and build of the server code (retrieving any dependencies), run the server tests (both unit and integration) and then build the zipped bundle. The results of the build are written to the staging directory within the server directory. The staging directory of a successful build should contain the zipped bundle, as well as the unzipped contents of the bundle. The latter is provided as a convenience to test the bundle by running the start.bat (or **start.sh** on Linux systems) in the **staging/apache-tomcat-x.x.x** directory. This will start the Tomcat server which is initially configured to load the Ozone server and the CAS server WAR files.
+The bundle task will do a clean and build of the server code (retrieving any dependencies), run the server tests (both unit and integration) and then build the zipped bundle. The results of the build are written to the staging directory within the server directory. The staging directory of a successful build should contain the zipped bundle, as well as the unzipped contents of the bundle. The latter is provided as a convenience to test the bundle by running the **start.bat** (or **start.sh** on Linux systems) in the **staging/apache-tomcat-x.x.x** directory. This will start the Tomcat server which is initially configured to load the Ozone server and the CAS server WAR files.
 
 ### Additional Build Command Line Options
 When running the build, use any (or all) of the following command line parameters:
 * **-logfile build.log** – This will redirect the output of the build to the specified log file. This can be useful when there are problems with the build because the output is often too verbose to be completely captured by the Command Prompt window.
 * **-Dno-test=true** – This will prevent the grails unit and integration tests from running. Often, they’ve already run. Using this option will speed up the build.
 * **-Dno-jsdoc=true** – This will prevent the generation of the JavaScript documentation. Generating the documentation is time consuming and slows the build progress.
-* **-Dgroovy\_all** – This property can be used to manually set the location of groovy-all.jar. This property needs to be set correctly when building to the **GROOVY_HOME** environment variable. The purpose of this property is to allow building on systems where Groovy was installed in such a way that the **GROOVY_HOME** variable is not set, such as Linux systems that installed Groovy using a centralized package manager. See below for an example: 
+* **-Dgroovy\_all** – This property can be used to manually set the location of **groovy-all.jar**. This property needs to be set correctly when building to the **GROOVY_HOME** environment variable. The purpose of this property is to allow building on systems where Groovy was installed in such a way that the **GROOVY_HOME** variable is not set, such as Linux systems that installed Groovy using a centralized package manager. See below for an example: 
 
         ant bundle -Dgroovy_all=/usr/share/java/groovy-all.jar
 

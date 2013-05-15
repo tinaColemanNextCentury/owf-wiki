@@ -28,7 +28,7 @@ The following is a summary of the OWF JavaScript APIs. Additional information on
 * [Ozone.pref.PrefServer](OWF-7-JSDoc#class-ozoneprefprefserver)
 * [Ozone.state.WidgetState](OWF-7-JSDoc#class-ozonestatewidgetstate)
 * [Ozone.state.WidgetStateHandler](OWF-7-JSDoc#class-ozonestatewidgetstatehandler)
-* [Ozone.util](OWF-7-JSDoc#class-ozoneutil)
+* [Ozone.util](OWF-7-JSDoc#namespace-ozoneutil)
 * [Ozone.util.pageLoad](OWF-7-JSDoc#class-ozoneutilpageload)
 
 
@@ -576,7 +576,7 @@ Defined in: `Widget.js`
     </tr>
 </table>
 
-### CLass: `Ozone.chrome.WidgetChrome`
+### Class: `Ozone.chrome.WidgetChrome`
 <i>Defined in:</i> `WidgetChrome.js`
 
 <table>

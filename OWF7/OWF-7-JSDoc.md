@@ -17,7 +17,7 @@ The following is a summary of the OWF JavaScript APIs. Additional information on
 
 <br>
 * [Ozone.chrome.WidgetChrome](OWF-7-JSDoc#class-ozonechromewidgetchrome)
-* [Ozone.dragAndDrop.WidgetDragandDrop](OWF-7-JSDoc#class-ozonedraganddropwigetdraganddrop)
+* [Ozone.dragAndDrop.WidgetDragandDrop](OWF-7-JSDoc#class-ozonedraganddropwidgetdraganddrop)
 * [Ozone.eventing.Widget](OWF-7-JSDoc#class-ozoneeventingwidget)
 * [Ozone.eventing.WidgetProxy](OWF-7-JSDoc#class-ozoneeventingwidgetproxy)
 * [Ozone.lang](OWF-7-JSDoc#class-ozonelang)

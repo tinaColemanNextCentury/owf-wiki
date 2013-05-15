@@ -27,3 +27,4 @@ Creating Widget applications and integrating existing applications into OWF; **w
 * [Additional Walkthroughs](OWF-7-Developer-Additional-Walkthroughs)
 * [Point-to-Point Widgets](OWF-7-Developer-Point-to-Point-Widgets)
 * [Known Issues](OWF-7-Developer-Known-Issues)
+* JavaScript API Reference Document](OWF-7-JSDoc)

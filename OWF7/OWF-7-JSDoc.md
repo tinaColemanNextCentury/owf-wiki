@@ -29,7 +29,7 @@ The following is a summary of the OWF JavaScript APIs. Additional information on
 * [Ozone.state.WidgetState](OWF-7-JSDoc#class-ozonestatewidgetstate)
 * [Ozone.state.WidgetStateHandler](OWF-7-JSDoc#class-ozonestatewidgetstatehandler)
 * [Ozone.util](OWF-7-JSDoc#namespace-ozoneutil)
-* [Ozone.util.pageLoad](OWF-7-JSDoc#class-ozoneutilpageload)
+* [Ozone.util.pageLoad](OWF-7-JSDoc#namespace-ozoneutilpageload)
 
 
 ### Namespace: `OWF`

@@ -23,7 +23,7 @@ The following is a summary of the OWF JavaScript APIs. Additional information on
 * [Ozone.lang](OWF-7-JSDoc#class-ozonelang)
 * [Ozone.launcher.WidgetLauncher](OWF-7-JSDoc#class-ozonelauncherwidgetlauncher)
 * [Ozone.launcher.WidgetLauncherUtils](OWF-7-JSDoc#class-ozonelauncherwidgetlauncherutils)
-* [Ozone.log](OWF-7-JSDoc#class-ozonelong)
+* [Ozone.log](OWF-7-JSDoc#class-ozonelog)
 * [Ozone.metrics](OWF-7-JSDoc#namespace-ozonemetrics)
 * [Ozone.pref.PrefServer](OWF-7-JSDoc#class-ozoneprefprefserver)
 * [Ozone.state.WidgetState](OWF-7-JSDoc#class-ozonestatewidgetstate)

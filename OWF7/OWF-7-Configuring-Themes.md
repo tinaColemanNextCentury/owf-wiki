@@ -114,7 +114,7 @@ The following table explains the files and folders that comprise a theme. The fi
 
 <b>Figure: Black-on-White Theme Directory Structure</b>
 
-In OWF, the parent theme directories include .theme in their naming convention. Example: accessibility-bow.theme. The following table, Theming Conventions, uses an example theme named example.theme (this example is not included in the bundle).
+In OWF, the parent theme directories include `.theme` in their naming convention. Example: `accessibility-bow.theme`. The following table, <b>Theming Conventions</b>, uses an example theme named `example.theme` (this example is not included in the bundle).
 
 <b>Table: Theming Conventions</b>
 

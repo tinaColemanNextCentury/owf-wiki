@@ -171,8 +171,7 @@ The name should not have any spaces. It should be all lowercase. Words can be se
      * To do a one-time compile of ALL themes, navigate to the `themes` directory and run the appropriate script. 
 
           * A.	On Windows, this is done by running `compile_all_themes.bat`  
-          * B.	On UNIX, this is done by running `sh compile_all_themes.sh` 
-> _Note: The scripts assume that their current directory is the themes directory._
+          * B.	On UNIX, this is done by running `sh compile_all_themes.sh` <br> <i>Note: The scripts assume that their current directory is the themes directory.</i>
      * To start watches on ALL themes, navigate to the themes directory and run the appropriate script. These scripts assume that the current directory is the `themes` directory.
           * A.	On Windows, run `watch_all_themes.bat`.  This will open a new, minimized command prompt for each theme, in which `compass watch` will be running.  
           * B.	On UNIX, run `sh watch_all_themes.sh` in a terminal. This will start `compass watch` as a background process for each theme.  The script will not exit until the watches exit, and so is generally terminated with a SIGINT. 

@@ -179,7 +179,7 @@ The name should not have any spaces. It should be all lowercase. Words can be se
 9.	Once the theme successfully compiles, verify that `theme_name.css` has been created in the css directory, and that it does not contain any error messages (These messages replace the entire normal output, so if errors exist they will be obvious).
 10.	Deploy OWF with the newly created theme.  Do this one of two ways: 
     * For a development instance, run `grails –Duser=testAdmin1 run-app –https` from the top directory of the source tree.
-    * Build OWF and start the Tomcat server, as described in 3.3: OWF Bundle Description. To build OWF, run `ant` from the top directory of the source tree. To start the build server, run `start.bat` or `start.sh` located in `/apache-tomcat-7.0.21`. 
+    * Build OWF and start the Tomcat server, as described in [OWF Bundle Description](OWF-7-Configuration-Installation#owf-bundle-description). To build OWF, run `ant` from the top directory of the source tree. To start the build server, run `start.bat` or `start.sh` located in `/apache-tomcat-7.0.21`. 
 
  > _Note: Before running ant, the developer may need to run ant init-build._
 11.	Log into OWF as a user or admin, and open the theme selector window which is located under the settings button on the toolbar.

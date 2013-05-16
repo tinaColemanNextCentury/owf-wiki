@@ -1,6 +1,6 @@
 # JavaScript API Reference Document
 
-The following is a summary of the OWF JavaScript APIs. Additional information on each API is found in the JavaScript document located in the OWF Help Bundle.
+The following is a summary of the OWF JavaScript APIs. Detailed descriptions of each API is found in the JavaScript document located in the OWF Help Bundle.
 
 * [OWF](OWF-7-JSDoc#namespace-owf)
 * [OWF.Chrome](OWF-7-JSDoc#namespace-owfchrome)

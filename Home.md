@@ -47,4 +47,5 @@ Contact information and guidance
 
 Repository of Community Troubleshooting Answers 
 
-* [Running OWF in JBoss](https://github.com/ozoneplatform/owf/wiki/Running-OWF-in-JBoss)
+* [How to deploy OWF 7 in WebLogic 11g](https://github.com/ozoneplatform/owf/wiki/Deploy-OWF-7-in-WebLogic-11g)
+* [How to deploy OWF 7 in JBoss](https://github.com/ozoneplatform/owf/wiki/Running-OWF-in-JBoss)

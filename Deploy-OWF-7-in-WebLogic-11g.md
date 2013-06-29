@@ -7,7 +7,7 @@
 
 2. Install WebLogic on your machine. You can find detailed installation instructions at the Oracle Fusion Middleware Documentation Library ([version 11.1.1](http://download.oracle.com/docs/cd/E14571_01/index.htm)). See the WebLogic Server product area therein.
 
-3. Configure a domain by running the _Configuration Wizard_ from the **Start Menu -> All Programs -> Oracle WebLogic -> WebLogic Server 10gR3 -> Tools** folder. Alternatively the wizard may be run from _[webLogicHome]_`/wlserver_10.3/common/bin/config.sh` or `config.cmd` depending on your operating system. The location you specify for your domain will be referred to as _[domainHome]_ for the remainder of this document. (The default domain location is _[webLogicHome]_`/user_projects/domains/`_[name]_.)
+3. Configure a domain by running the _Configuration Wizard_ from the **Start Menu -> All Programs -> Oracle WebLogic -> WebLogic Server 10gR3 -> Tools** folder. Alternatively the wizard may be run from _[webLogicHome]_`/wlserver_10.3/common/bin/config.sh` or `config.cmd` depending on your operating system. The location you specify for your domain will be referred to as _[domainHome]_ for the remainder of this document. (The default domain location is _[webLogicHome]_`/user_projects/domains/` _[name]_.)
 
 4. Start up WebLogic per the instructions in the documentation. Make sure it's running by accessing the administration console at [http://localhost:7001/console](http://localhost:7001/console), assuming you selected the default installation settings.
 
@@ -42,11 +42,10 @@ The default OWF configuration requires SSL to be enabled on the application serv
 
 12. Set the keystore/trsustore path and passphrase for the JVM. For example, you can define the `SSL_VMARGS` variable in the _[domainHome]_/`startWebLogic.cmd` file as follows:
 
-    set SSL_VMARGS=-Djavax.net.ssl.keyStore="keystore.jks" -Djavax.net.ssl.trustStore="keystore.jks" -Djavax.net.ssl.keyStorePassword="changeit" -Djavax.net.ssl.trustStorePassword="changeit"
+        set SSL_VMARGS=-Djavax.net.ssl.keyStore="keystore.jks" -Djavax.net.ssl.trustStore="keystore.jks" -Djavax.net.ssl.keyStorePassword="changeit" -Djavax.net.ssl.trustStorePassword="changeit"
 
-    > The sample above assumes the `keystore.jks` file is located in what will be the current working directory when the server is running.
-
-    > In order for SSL communication between OWF and CAS to succeed the truststore for the JVM that hosts CAS must include the certificate authority that signed the OWF server certificate.
+    > * The sample above assumes the `keystore.jks` file is located in what will be the current working directory when the server is running.
+    > * In order for SSL communication between OWF and CAS to succeed the truststore for the JVM that hosts CAS must include the certificate authority that signed the OWF server certificate.
 
 
 ## 3 Deploy OWF

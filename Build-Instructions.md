@@ -1,4 +1,3 @@
-![OZONE Widget Framework Banner](OWFImages/OWF7/ozone_widget_framework_banner.png)
 #OWF Build Instructions 
 #OWF6 and 7 - Grails, Ext JS infrastructure
 
@@ -11,56 +10,71 @@ The purpose of this document is to describe how to build the following project:
 ## 2 Requirements
 This document is targeted to OWF server/container developers and assumes a basic familiarity with the target development environment, be it Microsoft Windows or Linux. Before any of the build tasks can run, the developer must install Ant, Ant Contrib 1.0b3 and Grails 1.3.7. The following sections list the tools, the version requirements for recent OWF releases and nominal configuration elements. Instructions provided below assume a Microsoft Windows development environment for illustrative purposes only. 
 
-### 2.1 Download and Install Applications
+### Download and Install Applications
 OWF Development requires the use of the Java Development Kit (JDK), Apache Ant, Apache Ant Contrib, Ruby, RubyGems, Sass and Compass, as well as Groovy. The following table lists the versions of each tool required by OWF releases.
 
-**Table 1: OWF Development Tools and Version Numbers**
+**Table: OWF Development Tools and Version Numbers**
 
 <table>
- <tr> 
-<th>Application</th>
-<th>JDK</th>
-<th>ANT</th>
-<th>Ant Contrib</th>
-<th>GRAILS</th>
-<th>RUBY</th>
-<th>RubyGem*</th>
-<th>COMPASS*</th>
-<th>SASS*</th>
-<th>GROOVY</th>
-</tr>
-<tr> 
-<td> OWF 6 </td>
-<td> 1.6 </td>
-<td> 1.8 </td>
-<td> 1.0b3 </td>
-<td> 1.3.7 </td>
-<td> 1.9.2 </td>
-<td> 1.8.16 </td>
-<td> 0.11.3 </td>
-<td> 3.1.3 </td>
-<td> 1.8.8 </td>
-</tr>
-<tr> 
-<td> OWF 7 </td>
-<td> 1.6 </td>
-<td> 1.8.3 </td>
-<td> 1.0b3 </td>
-<td> 1.3.7 </td>
-<td> 1.9.2 </td>
-<td> 1.8.16 </td>
-<td> 0.11.3 </td>
-<td> 3.1.3 </td>
-<td> 1.8.8 </td>
-</tr>
+ <tr>
+    <th>Application</th>
+    <th> OWF 6 </th>
+    <th> OWF 7 </th> 
+ </tr>
+ <tr>
+   <td>JDK</td>
+   <td>1.6</td>
+   <td>1.6</td>
+ </tr>
+ <tr>
+   <td>ANT</td>
+   <td>1.8</td>
+   <td>1.8.3</td>
+ </tr>
+ <tr>
+   <td>Ant Contrib</td>
+   <td>1.0b3</td>
+   <td>1.0b3</td>
+ </tr>
+ <tr>
+   <td>GRAILS</td>
+   <td>1.3.7</td>
+   <td>1.3.7</td>
+ </tr>
+ <tr>
+   <td>RUBY</td>
+   <td>1.9.2</td>
+   <td>1.9.2</td>
+ </tr>
+ <tr>
+   <td>RubyGem*</td>
+   <td>1.8.16</td>
+   <td>1.8.16</td>
+ </tr>
+ <tr>
+   <td>COMPASS*</td>
+   <td>0.11.3</td>
+   <td>0.11.3</td>
+ </tr>
+ <tr>
+   <td>SASS*</td>
+   <td>3.1.3</td>
+   <td>3.1.3</td>
+ </tr>
+ <tr>
+   <td>GROOVY</td>
+   <td>1.8.8</td>
+   <td>1.8.8</td>
+ </tr>
 </table>
+
 </br>
 
-> *RubyGem is provided by the Ruby Installation. The Sass and Compass configuration is described in section 2.3: Configuring Ruby Gems (Sass and Compass).
+> *RubyGem is provided by the Ruby Installation. The Sass and Compass configuration is described in the section <b>Configuring Ruby Gems (Sass and Compass)</b>.
 
 Obtain installation media and instructions for the various operating systems from the primary websites for each tool or trusted download source. The default locations are provided below. Also, install the tools in the order listed below. Once all tools have been installed, the following sections will describe how to configure the environment.
 
-**Table 2: Tool Provider Websites**
+**Table: Tool Provider Websites**
 
 <table>
 <tr>
@@ -90,7 +104,7 @@ Obtain installation media and instructions for the various operating systems fro
 </table>
 
 
-### 2.2   Setting Environment Variables
+### Setting Environment Variables
 The build environment uses Apache Ant for most tasks. For Ant to run properly, it should discover the locations of the other supporting tools. This is accomplished by setting appropriate environment variables describing the install directory of each tool. On Windows 7, the following steps will set the **ANT\_HOME** variable, assuming an install location of **C:\Apache_Ant\apache-ant-1.8.3**.
 
 1. Go to the Start menu and select Control Panel.
@@ -107,7 +121,7 @@ The build environment uses Apache Ant for most tasks. For Ant to run properly, i
    C. Copy **ant-contrib-1.0b3.jar** to the lib directory of the local Ant installation.
 This method should be repeated to set a **JAVA_HOME**, **ANT_HOME**, **GRAILS_HOME**, **GROOVY_HOME** and **RUBY_HOME** environment variable for each of their installation folders, respectively.
 
-### 2.3   Configuring Ruby Gems (Sass and Compass)
+### Configuring Ruby Gems (Sass and Compass)
 Configuring the required Ruby gems requires completion of the previous sections. Assuming a correct Ruby installation and Ruby being available on the Path variable, the following steps will install Sass and Compass:
 
 1. Open a new Command Prompt window and enter the following:
@@ -178,7 +192,7 @@ If a different version is running or a Sass error is displayed (e.g., “no such
         Sass 3.1.3 (Brainy Betty) 
         C:\Users\myusername>
 
-### 2.4   Verify Tool Installations
+### Verify Tool Installations
 To verify the installation and version of the tools, use the version command for each tool in a Command Prompt window. Example commands and output for an OWF 7 environment follow:
 
 1. Enter java -version
@@ -237,7 +251,7 @@ To build the bundle, type the following on the command line and press Enter:
 
 The bundle task will do a clean and build of the server code (retrieving any dependencies), run the server tests (both unit and integration) and then build the zipped bundle. The results of the build are written to the staging directory within the server directory. The staging directory of a successful build should contain the zipped bundle, as well as the unzipped contents of the bundle. The latter is provided as a convenience to test the bundle by running the start.bat (or **start.sh** on Linux systems) in the **staging/apache-tomcat-x.x.x** directory. This will start the Tomcat server which is initially configured to load the Ozone server and the CAS server WAR files.
 
-### 3.1   Additional Build Command Line Options
+### Additional Build Command Line Options
 When running the build, use any (or all) of the following command line parameters:
 * **-logfile build.log** – This will redirect the output of the build to the specified log file. This can be useful when there are problems with the build because the output is often too verbose to be completely captured by the Command Prompt window.
 * **-Dno-test=true** – This will prevent the grails unit and integration tests from running. Often, they’ve already run. Using this option will speed up the build.
@@ -246,7 +260,7 @@ When running the build, use any (or all) of the following command line parameter
 
         ant bundle -Dgroovy_all=/usr/share/java/groovy-all.jar
 
-### 3.2   Troubleshooting
+### Troubleshooting
 * Grails plugins used by the applications have their own dependencies. In some cases these are not required for the base application; e.g. In Alpha/Beta releases these may be experimental or partially built-out capabilities. If a plugin is causing issues,  it may be removed by:
    * Modifying the **[root]/application.properties** file and commenting out the line beginning with ‘ **plugins.[pluginName]** ’.
    * Moving the **[root]/plugins/[pluginName]** directory out of the project.
@@ -266,10 +280,10 @@ When running the build, use any (or all) of the following command line parameter
   ensure that **GROOVY_HOME** is set in your environment. 
 
 ## 4 Other Prebuilt Artifacts
-### 4.1   CAS Server War
+### CAS Server War
 The CAS Server WAR provides a very simple login form interface to CAS, a single sign-on solution provided by jasig.  Previously built distributions of this artifact are now made available through Nexus.  As this is considered useful for packaged delivery, but not actually part of OWF's capabilities, build support for this artifact is not currently supported.  Consult the [CAS](http://www.jasig.org/cas) project within the jasig community for further guidance.
 
-### 4.2   Tomcat-OWF-Custom
+### Tomcat-OWF-Custom
 Changing the configuration of this artifact is not currently supported.  Previously built distributions of this artifact are now made available through Nexus.
 
 ## 5 Contact Information

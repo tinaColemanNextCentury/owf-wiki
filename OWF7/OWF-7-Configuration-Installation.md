@@ -1,3 +1,4 @@
+
 #1 Installation
 
 #1 Dependencies
@@ -342,10 +343,10 @@ The OWF-security files, provided in the distribution bundle, offer multiple exam
 
 For each available security option, there is a specific XML file which must be installed. Installing a new security module is accomplished in just a few simple steps. For more details, please refer to the [OWF Security](OWF-7-Configuring-OWF-Security) page. 
 
-#5   Operating OWF From Different/Multiple Ports
+#5   Operating OWF From a New Hostname or Port
 Initial OWF configuration is set up so that Tomcat can be run from a local installation.
 
-Throughout this document, `servername:port` implies a `localhost:8080` or `localhost:8443` location. The example below shows how to set up OWF so that it can be used on `5050/5443` through the default security module. 
+Throughout this document, `servername:port` implies a `localhost:8080` or `localhost:8443` location. The example below shows how to set up OWF so that it can be used on `www.foo.com` on ports `5050/5443` through the default security module. 
 To enable ports other than `8080/8443` while using Spring Security, the desired ports need to be explicitly edited in Web server configuration file: **conf/server.xml**.
 
 > _Note: In the event that OWF is running on a server where a port number is already in use, OWF must run from a different port number. Two applications cannot bind to the same port._
@@ -368,13 +369,14 @@ If OWF was running on a server where a port number was already in use, the `shut
             Server port="8006" shutdown="SHUTDOWN"
  * B.	Ensure that the port value used in the Web server configuration file matches the port value used in `\apache-tomcat-7.0.21\lib OzoneConfig.properties` which is shown below, displaying the default port and host information:
 
-            ozone.host = localhost
+            ozone.host = www.foo.com
             ozone.port = 5443
             ozone.unsecurePort = 5050
 2.	Save both files. 
-3.	Restart the OWF server.
+3.  If the servername is not localhost (default), generate or install server certificates that match the server name.  (see [Server Certificate Creation](#ServerCertificateCreation), below).
+4.	Restart the OWF server.
 
-#6   Adding Marketplace or Metrics Service To OWF
+#7   Adding Marketplace or Metrics Service To OWF
 The flexible and scalable nature of OWF allow for applications used in concert (such as Marketplace or the Metrics Service) to be included in OWF’s deployment for testing purposes.  This allows a user to develop with the products working together, without having to activate multiple ports via configuration.
 
 To include Marketplace or Metrics Service in the OWF bundle, do the following:
@@ -387,7 +389,7 @@ To include Marketplace or Metrics Service in the OWF bundle, do the following:
 >Note: If using a Marketplace release earlier than version 5, the following file must also be copied to the deployed OWF’s `/apache-tomcat-7.0.21/lib` directory:  
 **/apache-tomcat-7.0.21/lib/MPsecurityContext.xml**
 
-#7   Server Certificate Creation and Installation
+# <a name="ServerCertificateCreation" /> 8   Server Certificate Creation and Installation
 Valid server certificates are needed for configuring the server to allow https authentication. 
 
 > _Note: Self-signed certificates will produce warnings in a user’s browser. This is because a self-signed certificate, not signed by a recognized certificate authority, has no one authorizing its validity. In a production environment, certificates should be signed by a recognized certificate authority, such as an organization’s internal certificate authority._

@@ -1,4 +1,4 @@
-# Instructions: Configuring OWF Help COntent
+# Instructions: Configuring OWF Help Content
 
 When a user clicks the Help button in the toolbar, OWF offers online help: 
 

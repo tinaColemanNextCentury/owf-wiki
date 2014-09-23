@@ -575,6 +575,6 @@ If using **CASSpringOverrideConfig.xml** from a server without connectivity to t
 ##JVM Memory Settings
 Adjusting a server’s memory settings can increase performance or resolve permgen OutOfMemory errors. To adjust memory settings:
 
-1.	In the Tomcat start script (`apache-tomcat-7.0.21\lib\start.sh` or `start.bat`) set the initial permgem size to at least 256 MB. This can be accomplished by adding -XX:PermSize=256m to the Java options. If more server memory is available, increasing this permgem size may increase performance.
+1.	In the Tomcat setenv script (`apache-tomcat-7.0.21\bin\setenv.sh` or `setenv.bat`) set the initial permgem size to at least 256 MB. This can be accomplished by adding -XX:PermSize=256m to the Java options. If more server memory is available, increasing this permgem size may increase performance.
 2.	Set the maximum permgem size to at least 384 MB. This can be accomplished by adding -XX:MaxPermSize=384m to the Java options. If you have more memory available on your server increasing this permgem size may increase performance.
 3.	If you have a server JVM, point to it when starting Java to increase performance. To do this, navigate to `serverjvm.dll` or add server flag –server to the deployment command line. 
